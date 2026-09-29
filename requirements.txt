@@ -3,5 +3,7 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+scipy
+tensorflow>=2.20
 jupyter
 ipykernel
