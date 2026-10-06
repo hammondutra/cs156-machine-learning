@@ -75,7 +75,20 @@ Open [`notebooks/06_maximum_likelihood_estimation.ipynb`](notebooks/06_maximum_l
 
 Open [`notebooks/07_feed_forward_nn.ipynb`](notebooks/07_feed_forward_nn.ipynb).
 
-### Session 8 — Model Evaluation, ROC-AUC, and Data Splitting
+### Session 8 — Gradients: Multivariate Derivatives
+
+- sigmoid derivatives and chain rule,
+- manual scalar backpropagation through a computation graph,
+- gradients of the dot product `w^T x`,
+- vectorized backward passes,
+- automatic differentiation with JAX,
+- gradient-descent updates on model weights.
+
+Open [`notebooks/08_gradients_multivariate_derivatives.ipynb`](notebooks/08_gradients_multivariate_derivatives.ipynb).
+
+Reusable script: [`src/session08_gradients.py`](src/session08_gradients.py).
+
+### Session 9 — Metrics and Cross-Validation
 
 - stratified 80/20 train/test splits,
 - logistic regression versus nonlinear SVMs on concentric-circle data,
@@ -85,9 +98,9 @@ Open [`notebooks/07_feed_forward_nn.ipynb`](notebooks/07_feed_forward_nn.ipynb).
 - grid search over SVM `gamma` and `C`,
 - final evaluation on an untouched test set.
 
-Open [`notebooks/08_model_evaluation_roc_auc.ipynb`](notebooks/08_model_evaluation_roc_auc.ipynb).
+Open [`notebooks/09_metrics_cross_validation.ipynb`](notebooks/09_metrics_cross_validation.ipynb).
 
-Reusable script: [`src/session08_model_evaluation.py`](src/session08_model_evaluation.py).
+Reusable script: [`src/session09_metrics_cross_validation.py`](src/session09_metrics_cross_validation.py).
 
 ## Setup
 
@@ -102,4 +115,4 @@ Then select the `.venv` Python interpreter / kernel in VS Code or Jupyter.
 
 ## Notes
 
-Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 also runs fully offline because its concentric-circle dataset is generated with scikit-learn.
+Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn.
