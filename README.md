@@ -40,9 +40,9 @@ Open [`notebooks/03_multivariate_linear_regression.ipynb`](notebooks/03_multivar
 
 ### Session 4 — Decision Trees
 
-The existing Session 4 notebook can be kept as:
+The existing Session 4 notebook is stored at:
 
-`notebooks/04_decision_trees.ipynb`
+[`notebooks/04_decision_trees.ipynb`](notebooks/04_decision_trees.ipynb)
 
 ### Session 5 — Naive Bayes
 
@@ -75,6 +75,20 @@ Open [`notebooks/06_maximum_likelihood_estimation.ipynb`](notebooks/06_maximum_l
 
 Open [`notebooks/07_feed_forward_nn.ipynb`](notebooks/07_feed_forward_nn.ipynb).
 
+### Session 8 — Model Evaluation, ROC-AUC, and Data Splitting
+
+- stratified 80/20 train/test splits,
+- logistic regression versus nonlinear SVMs on concentric-circle data,
+- classifier probability surfaces,
+- ROC curves, threshold tradeoffs, and ROC-AUC,
+- train/validation/test separation,
+- grid search over SVM `gamma` and `C`,
+- final evaluation on an untouched test set.
+
+Open [`notebooks/08_model_evaluation_roc_auc.ipynb`](notebooks/08_model_evaluation_roc_auc.ipynb).
+
+Reusable script: [`src/session08_model_evaluation.py`](src/session08_model_evaluation.py).
+
 ## Setup
 
 ```bash
@@ -88,4 +102,4 @@ Then select the `.venv` Python interpreter / kernel in VS Code or Jupyter.
 
 ## Notes
 
-Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`.
+Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 also runs fully offline because its concentric-circle dataset is generated with scikit-learn.
