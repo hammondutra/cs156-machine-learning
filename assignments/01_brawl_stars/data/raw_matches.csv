@@ -1,48 +1,73 @@
 Match_ID,Blue_1,Blue_2,Blue_3,Red_1,Red_2,Red_3,Blue_Win,Result,Trophy_Change,Mode,Map,Source_Image,Source_Row,Review_Status
-1,DYNAMIKE,BIBI,MORTIS,MORTIS,PIPER,MINA,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 1,1,Original snapshot; not reverified
-2,EL_PRIMO,DYNAMIKE,DAMIAN,CLANCY,MORTIS,EVE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,2,Original snapshot; not reverified
-3,EDGAR,SHELLY,FANG,STU,EL_PRIMO,DYNAMIKE,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 1,3,Original snapshot; not reverified
-4,BUZZ,STU,BO,MORTIS,STARR_NOVA,DYNAMIKE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,4,Original snapshot; not reverified
-5,STARR_NOVA,DYNAMIKE,MORTIS,BIBI,CROW,MORTIS,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 1,5,Original snapshot; not reverified
-6,POCO,BULL,BROCK,CROW,OTIS,DYNAMIKE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,6,Original snapshot; not reverified
-7,BOLT,COLETTE,GALE,DYNAMIKE,MINA,COLETTE,1,Victory,13,Brawl Ball,Pinhole Punt,Screenshot 1,7,Original snapshot; not reverified
-8,CLANCY,COLT,DYNAMIKE,EMZ,COLETTE,LEON,1,Victory,12,Brawl Ball,Pinhole Punt,Screenshot 1,8,Original snapshot; not reverified
-9,COLT,SPIKE,LILY,COLT,CLANCY,DYNAMIKE,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 1,9,Original snapshot; not reverified
-10,DYNAMIKE,SAM,SIRIUS,RICO,CHUCK,MORTIS,0,Defeat,-7,Brawl Ball,Pinhole Punt,Screenshot 1,10,Original snapshot; not reverified
-11,DYNAMIKE,BYRON,EDGAR,RICO,SURGE,FANG,1,Victory,15,Brawl Ball,Pinhole Punt,Screenshot 1,11,Original snapshot; not reverified
-12,MORTIS,DYNAMIKE,MINA,CROW,MORTIS,DAMIAN,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,12,Original snapshot; not reverified
-13,BIBI,MORTIS,FANG,POCO,MORTIS,DYNAMIKE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 2,1,Original snapshot; not reverified
-14,MORTIS,DYNAMIKE,POCO,EDGAR,RICO,MORTIS,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 2,2,Original snapshot; not reverified
-15,LEON,CROW,SURGE,DYNAMIKE,SURGE,MORTIS,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2,3,Original snapshot; not reverified
-16,DYNAMIKE,MORTIS,EDGAR,FANG,BOLT,CHESTER,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 2,4,Original snapshot; not reverified
-17,LILY,JACKY,MORTIS,DYNAMIKE,EDGAR,SHELLY,1,Victory,14,Brawl Ball,Pinhole Punt,Screenshot 2,5,Original snapshot; not reverified
-18,RICO,EDGAR,BROCK,DYNAMIKE,BIBI,EDGAR,1,Victory,13,Brawl Ball,Pinhole Punt,Screenshot 2,6,Original snapshot; not reverified
-19,DYNAMIKE,BULL,CHESTER,KENJI,LEON,BO,1,Victory,12,Brawl Ball,Pinhole Punt,Screenshot 2,7,Original snapshot; not reverified
-20,COLT,MORTIS,DYNAMIKE,COLT,CHESTER,KENJI,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 2,8,Original snapshot; not reverified
-21,GRIFF,EL_PRIMO,BULL,COLT,MORTIS,DYNAMIKE,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2,9,Original snapshot; not reverified
-22,CHESTER,BULL,COLETTE,COLETTE,BULL,DYNAMIKE,0,Defeat,-9,Brawl Ball,Pinhole Punt,Screenshot 2,10,Original snapshot; not reverified
-23,COLETTE,BULL,DYNAMIKE,EDGAR,CORDELIUS,DYNAMIKE,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2,11,Original snapshot; not reverified
-24,DARRYL,EL_PRIMO,COLT,MORTIS,DYNAMIKE,FANG,0,Defeat,-9,Brawl Ball,Pinhole Punt,Screenshot 2,12,Original snapshot; not reverified
-25,MORTIS,DYNAMIKE,SPIKE,MORTIS,BULL,CHESTER,0,Defeat,-9,Brawl Ball,Pinhole Punt,Screenshot 2,13,Original snapshot; not reverified
-26,STU,MORTIS,REVIEW_WHITE_SQUARE,EDGAR,COLT,SHELLY,1,Victory,13,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,1,Needs brawler review
-27,REVIEW_RED_CAP_GIRL,COLT,SPIKE,DYNAMIKE,REVIEW_WHITE_SQUARE,BIBI,0,Defeat,-5,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,2,Needs brawler review
-28,COLT,PIPER,STU,BROCK,REVIEW_DARK_HAT,PIPER,0,Defeat,-6,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,3,Needs brawler review
-29,BO,PIPER,CHESTER,BROCK,LEON,EDGAR,1,Victory,16,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,4,Transcribed; verify
-30,REVIEW_GREEN_PINK,PIPER,REVIEW_WHITE_HAIR,BROCK,PIPER,EMZ,1,Victory,11,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,5,Needs brawler review
-31,JACKY,PIPER,REVIEW_BLACK_WHITE_FACE,COLT,DYNAMIKE,EDGAR,1,Victory,16,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,6,Needs brawler review
-32,REVIEW_PINK_SMILE,EMZ,BO,PIPER,REVIEW_BLUE_GLASSES,REVIEW_GREY_SKULL,0,Defeat,-5,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,7,Needs brawler review
-33,REVIEW_GREY_SKULL,EMZ,CHESTER,REVIEW_GREY_SKULL,REVIEW_BROKEN_ICON,BIBI,1,Victory,13,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,8,Needs brawler review
-34,REVIEW_BROWN_HAT,REVIEW_YELLOW_GOGGLES,POCO,STARR_NOVA,REVIEW_PINK_VISOR,BO,1,Victory,12,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,9,Needs brawler review
-35,KENJI,REVIEW_GREY_SKULL,GRIFF,RICO,DYNAMIKE,POCO,1,Victory,11,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,10,Needs brawler review
-36,REVIEW_GREEN_HAIR,LILY,REVIEW_BLUE_GLASSES,REVIEW_PURPLE_ONE_EYE,DYNAMIKE,BUZZ,1,Victory,16,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,11,Needs brawler review
-37,BROCK,SURGE,POCO,SHELLY,REVIEW_RED_DARK,RICO,1,Victory,10,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,3,Needs brawler review
-38,EMZ,COLT,COLETTE,REVIEW_BROWN_HAT,REVIEW_ORANGE_FACE,MINA,1,Victory,19,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,4,Needs brawler review
-39,REVIEW_BROWN_GIRL,EDGAR,RICO,EMZ,COLT,REVIEW_GREY_SKULL,1,Victory,14,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,5,Needs brawler review
-40,POCO,COLETTE,COLT,JACKY,BUZZ,SPIKE,1,Victory,12,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,6,Transcribed; verify
-41,GALE,REVIEW_PINK_FACE,REVIEW_BROWN_HAT,RICO,BROCK,COLETTE,1,Victory,20,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,7,Needs brawler review
-42,COLETTE,EL_PRIMO,BROCK,REVIEW_BLUE_GLASSES,POCO,GRIFF,1,Victory,11,Heist,Photic Doom,Screenshot 2026-10-08 02.02.33,8,Needs brawler review
-43,REVIEW_GREEN_PINK,LEON,BROCK,CROW,EDGAR,COLT,1,Victory,11,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,9,Needs brawler review
-44,REVIEW_GREEN_PINK,REVIEW_GREEN_MASK,BULL,PIPER,RICO,REVIEW_BLOND_GIRL,1,Victory,17,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,10,Needs brawler review
-45,REVIEW_GREEN_HAIR,BO,EDGAR,COLT,MORTIS,PIPER,1,Victory,8,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.33,11,Needs brawler review
-46,REVIEW_RED_DARK,COLT,BIBI,GRIFF,EMZ,EDGAR,1,Victory,12,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,12,Needs brawler review
-47,REVIEW_BLACK_WHITE_FACE,RICO,SHELLY,CROW,EDGAR,GRIFF,1,Victory,10,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,13,Needs brawler review
+1,DYNAMIKE,BIBI,MORTIS,MORTIS,PIPER,MINA,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 1,1,Original; verify
+2,EL_PRIMO,DYNAMIKE,DAMIAN,CLANCY,MORTIS,EVE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,2,Original; verify
+3,EDGAR,SHELLY,FANG,STU,EL_PRIMO,DYNAMIKE,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 1,3,Original; verify
+4,BUZZ,STU,BO,MORTIS,STARR_NOVA,DYNAMIKE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,4,Original; verify
+5,STARR_NOVA,DYNAMIKE,MORTIS,BIBI,CROW,MORTIS,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 1,5,Original; verify
+6,POCO,BULL,BROCK,CROW,OTIS,DYNAMIKE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,6,Original; verify
+7,BOLT,COLETTE,GALE,DYNAMIKE,MINA,COLETTE,1,Victory,13,Brawl Ball,Pinhole Punt,Screenshot 1,7,Original; verify
+8,CLANCY,COLT,DYNAMIKE,EMZ,COLETTE,LEON,1,Victory,12,Brawl Ball,Pinhole Punt,Screenshot 1,8,Original; verify
+9,COLT,SPIKE,LILY,COLT,CLANCY,DYNAMIKE,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 1,9,Original; verify
+10,DYNAMIKE,SAM,SIRIUS,RICO,CHUCK,MORTIS,0,Defeat,-7,Brawl Ball,Pinhole Punt,Screenshot 1,10,Original; verify
+11,DYNAMIKE,BYRON,EDGAR,RICO,SURGE,FANG,1,Victory,15,Brawl Ball,Pinhole Punt,Screenshot 1,11,Original; verify
+12,MORTIS,DYNAMIKE,MINA,CROW,MORTIS,DAMIAN,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 1,12,Original; verify
+13,BIBI,MORTIS,FANG,POCO,MORTIS,DYNAMIKE,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 2,1,Original; verify
+14,MORTIS,DYNAMIKE,POCO,EDGAR,RICO,MORTIS,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 2,2,Original; verify
+15,LEON,CROW,SURGE,DYNAMIKE,SURGE,MORTIS,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2,3,Original; verify
+16,DYNAMIKE,MORTIS,EDGAR,FANG,BOLT,CHESTER,0,Defeat,-10,Brawl Ball,Pinhole Punt,Screenshot 2,4,Original; verify
+17,LILY,JACKY,MORTIS,DYNAMIKE,EDGAR,SHELLY,1,Victory,14,Brawl Ball,Pinhole Punt,Screenshot 2,5,Original; verify
+18,RICO,EDGAR,BROCK,DYNAMIKE,BIBI,EDGAR,1,Victory,13,Brawl Ball,Pinhole Punt,Screenshot 2,6,Original; verify
+19,DYNAMIKE,BULL,CHESTER,KENJI,LEON,BO,1,Victory,12,Brawl Ball,Pinhole Punt,Screenshot 2,7,Original; verify
+20,COLT,MORTIS,DYNAMIKE,COLT,CHESTER,KENJI,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 2,8,Original; verify
+21,GRIFF,EL_PRIMO,BULL,COLT,MORTIS,DYNAMIKE,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2,9,Original; verify
+22,CHESTER,BULL,COLETTE,COLETTE,BULL,DYNAMIKE,0,Defeat,-9,Brawl Ball,Pinhole Punt,Screenshot 2,10,Original; verify
+23,COLETTE,BULL,DYNAMIKE,EDGAR,CORDELIUS,DYNAMIKE,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2,11,Original; verify
+24,DARRYL,EL_PRIMO,COLT,MORTIS,DYNAMIKE,FANG,0,Defeat,-9,Brawl Ball,Pinhole Punt,Screenshot 2,12,Original; verify
+25,MORTIS,DYNAMIKE,SPIKE,MORTIS,BULL,CHESTER,0,Defeat,-9,Brawl Ball,Pinhole Punt,Screenshot 2,13,Original; verify
+26,STU,MORTIS,FRANK,EDGAR,COLT,SHELLY,1,Victory,13,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,1,Original; verify
+27,PAM,COLT,SPIKE,DYNAMIKE,FRANK,BIBI,0,Defeat,-5,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,2,Original; verify
+28,COLT,PIPER,STU,BROCK,NAJIA,PIPER,0,Defeat,-6,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,3,Original; verify
+29,BO,PIPER,CHESTER,BROCK,LEON,EDGAR,1,Victory,16,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,4,Original; verify
+30,ANGELO,PIPER,GUS,BROCK,PIPER,EMZ,1,Victory,11,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,5,Original; verify
+31,JACKY,PIPER,KIT,COLT,DYNAMIKE,EDGAR,1,Victory,16,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,6,Original; verify
+32,JANET,EMZ,BO,PIPER,8BIT,TICK,0,Defeat,-5,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,7,Original; verify
+33,TICK,EMZ,CHESTER,COSMO,TICK,BIBI,1,Victory,13,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,8,Original; verify
+34,JESSIE,CARL,PENNY,STARR_NOVA,SHADE,BO,1,Victory,12,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,9,Original; verify
+35,KENJI,TICK,GRIFF,BARLEY,DYNAMIKE,PENNY,1,Victory,11,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,10,Original; verify
+36,MANDY,LILY,8BIT,DARRYL,DYNAMIKE,BUZZ,1,Victory,16,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,11,Original; verify
+37,BROCK,SURGE,PENNY,SHELLY,NITA,RICO,1,Victory,10,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,3,Original; verify
+38,EMZ,COLT,COLETTE,JESSIE,AMBER,MINA,1,Victory,19,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,4,Original; verify
+39,ROSA,EDGAR,RICO,EMZ,COLT,TICK,1,Victory,14,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,5,Original; verify
+40,POCO,COLETTE,COLT,JACKY,BUZZ,SPIKE,1,Victory,12,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,6,Original; verify
+41,GALE,GROM,MAISIE,BARLEY,BROCK,COLETTE,1,Victory,20,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,7,Original; verify
+42,COLETTE,EL_PRIMO,BROCK,8BIT,PENNY,GRIFF,1,Victory,11,Heist,Photic Doom,Screenshot 2026-10-08 02.02.33,8,Original; verify
+43,ANGELO,LEON,BROCK,CROW,EDGAR,COLT,1,Victory,11,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,9,Original; verify
+44,ANGELO,JUJU,BULL,PIPER,RICO,BEA,1,Victory,17,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,10,Original; verify
+45,MANDY,BO,EDGAR,COLT,MORTIS,PIPER,1,Victory,8,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.33,11,Original; verify
+46,NITA,COLT,BIBI,GRIFF,EMZ,EDGAR,1,Victory,12,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,12,Original; verify
+47,MEEPLE,RICO,SHELLY,CROW,EDGAR,GRIFF,1,Victory,10,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,13,NEXT MATCH: START FROM BIBI
+48,REVIEW_GREEN_HOOD,RICO,DARRYL,REVIEW_BLUE_GLASSES,SHELLY,COLT,1,Victory,11,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.20,1,Needs brawler review
+49,MEEPLE,COLT,DARRYL,REVIEW_BLUE_GLASSES,EMZ,EDGAR,0,Defeat,-5,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.20,2,Needs brawler review
+50,REVIEW_PINK_ROBOT,GRIFF,REVIEW_BLUE_GLASSES,MEEPLE,REVIEW_BLUE_FACE,SPIKE,1,Victory,14,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,3,Needs brawler review
+51,CORDELIUS,BYRON,BO,REVIEW_RAINBOW,CHESTER,CHUCK,0,Defeat,-5,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,4,Needs brawler review
+52,BUZZ,BULL,FANG,REVIEW_PURPLE_FACE,SPIKE,REVIEW_GREEN_PINK,1,Victory,20,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,5,Needs brawler review
+53,MORTIS,REVIEW_PURPLE_PINK,POCO,SPIKE,SURGE,BULL,1,Victory,14,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,6,Needs brawler review
+54,REVIEW_YELLOW_ROUND,RICO,REVIEW_RED_DARK,EDGAR,SHELLY,REVIEW_WHITE_SQUARE,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,7,Needs brawler review
+55,RICO,REVIEW_GREEN_ORANGE,EDGAR,RICO,REVIEW_WHITE_HAIR,COLT,0,Defeat,-5,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,8,Needs brawler review
+56,REVIEW_GREEN_MASK,BROCK,EL_PRIMO,COLT,BROCK,REVIEW_WHITE_HAIR,1,Victory,12,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,9,Needs brawler review
+57,POCO,CROW,REVIEW_GREEN_HAIR,SURGE,EDGAR,BUZZ,1,Victory,11,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,10,Needs brawler review
+58,STU,GRIFF,SAM,FANG,EMZ,BIBI,1,Victory,11,Brawl Ball,Slippery Showdown,Screenshot 2026-10-08 18.00.20,11,Transcribed; verify
+59,COLETTE,POCO,REVIEW_PINK_GIRL,REVIEW_RED_ORANGE,REVIEW_GREY_SKULL,BO,0,Defeat,-5,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.20,12,Needs brawler review
+60,RICO,REVIEW_RED_FACE,EDGAR,KENJI,REVIEW_BROWN_HAT,EDGAR,1,Victory,13,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.20,13,Needs brawler review
+61,REVIEW_BLONDE_GIRL,BROCK,BYRON,REVIEW_GREEN_FACE,CHUCK,REVIEW_PINK_GIRL,1,Victory,11,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.38,1,Needs brawler review
+62,BO,REVIEW_BLUE_MONSTER,CORDELIUS,EDGAR,BROCK,FANG,1,Victory,11,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.38,2,Needs brawler review
+63,EDGAR,REVIEW_YELLOW_FACE,GRIFF,CROW,EMZ,EDGAR,1,Victory,20,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,3,Needs brawler review
+64,REVIEW_PINK_GIRL,PIPER,REVIEW_RED_GOGGLES,LEON,EDGAR,BROCK,1,Victory,11,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,4,Needs brawler review
+65,REVIEW_BLUE_FACE,PIPER,BYRON,REVIEW_RED_ORANGE,REVIEW_WHITE_HAIR,STU,0,Defeat,-5,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,5,Needs brawler review
+66,PIPER,BROCK,EVE,EL_PRIMO,REVIEW_WHITE_HAIR,EDGAR,1,Victory,12,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,6,Needs brawler review
+67,PIPER,SURGE,EL_PRIMO,REVIEW_BLUE_MONSTER,PIPER,COLETTE,1,Victory,10,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,7,Needs brawler review
+68,RICO,COLT,REVIEW_BLUE_MONSTER,REVIEW_BROWN_HAT,BROCK,COLT,1,Victory,11,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,8,Needs brawler review
+69,REVIEW_YELLOW_ROUND,POCO,REVIEW_GREEN_SHARK,REVIEW_RED_ORANGE,GALE,STU,1,Victory,10,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,9,Needs brawler review
+70,POCO,REVIEW_PINK_GIRL,CHESTER,SPIKE,GRIFF,EMZ,1,Victory,10,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,10,Needs brawler review
+71,REVIEW_PINK_ROBOT,EMZ,SPIKE,SHELLY,BIBI,SURGE,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.38,11,Needs brawler review
+72,FANG,SPIKE,BIBI,EL_PRIMO,REVIEW_RED_BLACK,STU,1,Victory,10,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.38,12,Needs brawler review
