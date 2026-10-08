@@ -1,0 +1,26 @@
+name: Validate Brawl Stars pipeline
+on:
+  push:
+    branches: [feat/brawl-stars-pipeline-1]
+  pull_request:
+    paths:
+      - 'assignments/01_brawl_stars/**'
+      - '.github/workflows/brawl-stars-pipeline.yml'
+jobs:
+  test-and-notebook:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: assignments/01_brawl_stars
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install numpy pandas scipy scikit-learn matplotlib jupyter nbconvert ipykernel
+      - run: python -m unittest discover -s tests -v
+      - run: jupyter nbconvert --to notebook --execute notebooks/brawl_stars_pipeline.ipynb --output brawl_stars_pipeline_executed.ipynb --ExecutePreprocessor.timeout=180
+      - uses: actions/upload-artifact@v4
+        with:
+          name: brawl-stars-executed-notebook
+          path: assignments/01_brawl_stars/notebooks/brawl_stars_pipeline_executed.ipynb
