@@ -31,6 +31,6 @@ Future labels are WIN, DRAW, LOSS. Do not infer draw probabilities from this dat
 
 ## Integrity notes
 
-The team positions are left/right in screenshots, assumed to correspond to Blue/Red. Individual portrait transcription needs final manual verification. A roster spelling correction (`COLLETTE` → `COLETE`) was applied in the sheet; this repository uses the canonical `COLETE` only if the official roster confirms it. **Do not interpret a good score as causal draft strength**: small n, patch variation, matchmaking and repeated player habits are confounders.
+The team positions are left/right in screenshots, assumed to correspond to Blue/Red. Individual portrait transcription needs final manual verification. A roster spelling correction (`COLLETTE` → `COLETTE`) was applied in the sheet; this repository uses the canonical `COLETTE` until independently verified against the official roster. **Do not interpret a good score as causal draft strength**: small n, patch variation, matchmaking and repeated player habits are confounders.
 
 Full execution plan: [Google Doc](https://docs.google.com/document/d/1IPTG9PpUdT5H7X-I0S7bjCjKbauvxZaRpzkvWXfPYQ0/edit).
