@@ -29,7 +29,7 @@ def validate_matches(df):
 def normalize_names(df):
     out = df.copy()
     for c in SLOTS:
-        out[c] = out[c].astype(str).str.strip().str.upper().str.replace(r"\\s+", "_", regex=True)
+        out[c] = out[c].astype(str).str.strip().str.upper().str.replace(r"\s+", "_", regex=True)
         out[c] = out[c].replace({"COLLETTE": "COLETTE"})
     return out
 
