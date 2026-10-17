@@ -149,153 +149,177 @@ Match_ID,Blue_1,Blue_2,Blue_3,Red_1,Red_2,Red_3,Blue_Win,Result,Trophy_Change,Mo
 148,STU,BROCK,PIPER,MORTIS,BROCK,SURGE,0,Defeat,0,Brawl Ball,Super Beach,N/A,1,,148,0,ORIGINAL
 149,COLT,SHADE,EL_PRIMO,COLT,BO,CORDELIUS,0,Defeat,0,Brawl Ball,Super Beach,N/A,2,,149,0,ORIGINAL
 150,PIPER,MORTIS,GUS,POCO,DARRYL,GALE,1,Victory,0,Brawl Ball,Super Beach,N/A,3,,150,0,ORIGINAL
-151,MORTIS,PIPER,MINA,DYNAMIKE,BIBI,MORTIS,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,1,Synthetic swap of match 1; not an independent match,1,1,FLIPPED
-152,CLANCY,MORTIS,EVE,EL_PRIMO,DYNAMIKE,DAMIAN,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,2,Synthetic swap of match 2; not an independent match,2,1,FLIPPED
-153,STU,EL_PRIMO,DYNAMIKE,EDGAR,SHELLY,FANG,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,3,Synthetic swap of match 3; not an independent match,3,1,FLIPPED
-154,MORTIS,STARR_NOVA,DYNAMIKE,BUZZ,STU,BO,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,4,Synthetic swap of match 4; not an independent match,4,1,FLIPPED
-155,BIBI,CROW,MORTIS,STARR_NOVA,DYNAMIKE,MORTIS,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,5,Synthetic swap of match 5; not an independent match,5,1,FLIPPED
-156,CROW,OTIS,DYNAMIKE,POCO,BULL,BROCK,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,6,Synthetic swap of match 6; not an independent match,6,1,FLIPPED
-157,DYNAMIKE,MINA,COLETTE,BOLT,COLETTE,GALE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,7,Synthetic swap of match 7; not an independent match,7,1,FLIPPED
-158,EMZ,COLETTE,LEON,CLANCY,COLT,DYNAMIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,8,Synthetic swap of match 8; not an independent match,8,1,FLIPPED
-159,COLT,CLANCY,DYNAMIKE,COLT,SPIKE,LILY,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,9,Synthetic swap of match 9; not an independent match,9,1,FLIPPED
-160,RICO,CHUCK,MORTIS,DYNAMIKE,SAM,SIRIUS,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,10,Synthetic swap of match 10; not an independent match,10,1,FLIPPED
-161,RICO,SURGE,FANG,DYNAMIKE,BYRON,EDGAR,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,11,Synthetic swap of match 11; not an independent match,11,1,FLIPPED
-162,CROW,MORTIS,DARRYL,MORTIS,DYNAMIKE,MINA,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,12,Synthetic swap of match 12; not an independent match,12,1,FLIPPED
-163,POCO,MORTIS,DYNAMIKE,BIBI,MORTIS,FANG,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,1,Synthetic swap of match 13; not an independent match,13,1,FLIPPED
-164,EDGAR,RICO,MORTIS,MORTIS,DYNAMIKE,POCO,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,2,Synthetic swap of match 14; not an independent match,14,1,FLIPPED
-165,DYNAMIKE,SURGE,MORTIS,LEON,CROW,SURGE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,3,Synthetic swap of match 15; not an independent match,15,1,FLIPPED
-166,FANG,BOLT,CHESTER,DYNAMIKE,MORTIS,EDGAR,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,4,Synthetic swap of match 16; not an independent match,16,1,FLIPPED
-167,DYNAMIKE,EDGAR,SHELLY,LILY,JACKY,MORTIS,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,5,Synthetic swap of match 17; not an independent match,17,1,FLIPPED
-168,DYNAMIKE,BIBI,EDGAR,RICO,EDGAR,BROCK,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,6,Synthetic swap of match 18; not an independent match,18,1,FLIPPED
-169,KENJI,LEON,BO,DYNAMIKE,BULL,CHESTER,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,7,Synthetic swap of match 19; not an independent match,19,1,FLIPPED
-170,COLT,CHESTER,KENJI,COLT,MORTIS,DYNAMIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,8,Synthetic swap of match 20; not an independent match,20,1,FLIPPED
-171,COLT,MORTIS,DYNAMIKE,GRIFF,EL_PRIMO,BULL,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,9,Synthetic swap of match 21; not an independent match,21,1,FLIPPED
-172,COLETTE,BULL,DYNAMIKE,CHESTER,BULL,COLETTE,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,10,Synthetic swap of match 22; not an independent match,22,1,FLIPPED
-173,EDGAR,CORDELIUS,DYNAMIKE,COLETTE,BULL,DYNAMIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,11,Synthetic swap of match 23; not an independent match,23,1,FLIPPED
-174,MORTIS,DYNAMIKE,FANG,DARRYL,EL_PRIMO,COLT,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,12,Synthetic swap of match 24; not an independent match,24,1,FLIPPED
-175,MORTIS,BULL,CHESTER,MORTIS,DYNAMIKE,SPIKE,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,13,Synthetic swap of match 25; not an independent match,25,1,FLIPPED
-176,EDGAR,COLT,SHELLY,STU,MORTIS,FRANK,0,Defeat,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,1,Synthetic swap of match 26; not an independent match,26,1,FLIPPED
-177,DYNAMIKE,FRANK,BIBI,PAM,COLT,SPIKE,1,Victory,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,2,Synthetic swap of match 27; not an independent match,27,1,FLIPPED
-178,BROCK,NAJIA,PIPER,COLT,PIPER,STU,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,3,Synthetic swap of match 28; not an independent match,28,1,FLIPPED
-179,BROCK,LEON,EDGAR,BO,PIPER,CHESTER,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,4,Synthetic swap of match 29; not an independent match,29,1,FLIPPED
-180,BROCK,PIPER,EMZ,ANGELO,PIPER,GUS,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,5,Synthetic swap of match 30; not an independent match,30,1,FLIPPED
-181,COLT,DYNAMIKE,EDGAR,JACKY,PIPER,KIT,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,6,Synthetic swap of match 31; not an independent match,31,1,FLIPPED
-182,PIPER,8BIT,TICK,JANET,EMZ,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,7,Synthetic swap of match 32; not an independent match,32,1,FLIPPED
-183,COSMO,TICK,BIBI,TICK,EMZ,CHESTER,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,8,Synthetic swap of match 33; not an independent match,33,1,FLIPPED
-184,STARR_NOVA,SHADE,BO,JESSIE,CARL,PENNY,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,9,Synthetic swap of match 34; not an independent match,34,1,FLIPPED
-185,BARLEY,DYNAMIKE,PENNY,KENJI,TICK,GRIFF,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,10,Synthetic swap of match 35; not an independent match,35,1,FLIPPED
-186,DARRYL,DYNAMIKE,BUZZ,MANDY,LILY,8BIT,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,11,Synthetic swap of match 36; not an independent match,36,1,FLIPPED
-187,SHELLY,NITA,RICO,BROCK,SURGE,PENNY,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,3,Synthetic swap of match 37; not an independent match,37,1,FLIPPED
-188,JESSIE,AMBER,MINA,EMZ,COLT,COLETTE,0,Defeat,,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,4,Synthetic swap of match 38; not an independent match,38,1,FLIPPED
-189,EMZ,COLT,TICK,ROSA,EDGAR,RICO,0,Defeat,,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,5,Synthetic swap of match 39; not an independent match,39,1,FLIPPED
-190,JACKY,BUZZ,SPIKE,POCO,COLETTE,COLT,0,Defeat,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,6,Synthetic swap of match 40; not an independent match,40,1,FLIPPED
-191,BARLEY,BROCK,COLETTE,GALE,GROM,MAISIE,0,Defeat,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,7,Synthetic swap of match 41; not an independent match,41,1,FLIPPED
-192,8BIT,PENNY,GRIFF,COLETTE,EL_PRIMO,BROCK,0,Defeat,,Heist,Photic Doom,Screenshot 2026-10-08 02.02.33,8,Synthetic swap of match 42; not an independent match,42,1,FLIPPED
-193,CROW,EDGAR,COLT,ANGELO,LEON,BROCK,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,9,Synthetic swap of match 43; not an independent match,43,1,FLIPPED
-194,PIPER,RICO,BEA,ANGELO,JUJU,BULL,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,10,Synthetic swap of match 44; not an independent match,44,1,FLIPPED
-195,COLT,MORTIS,PIPER,MANDY,BO,EDGAR,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.33,11,Synthetic swap of match 45; not an independent match,45,1,FLIPPED
-196,GRIFF,EMZ,EDGAR,NITA,COLT,BIBI,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,12,Synthetic swap of match 46; not an independent match,46,1,FLIPPED
-197,CROW,EDGAR,GRIFF,MEEPLE,RICO,SHELLY,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,13,Synthetic swap of match 47; not an independent match,47,1,FLIPPED
-198,8BIT,SHELLY,COLT,TRUNK,RICO,DARRYL,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.20,1,Synthetic swap of match 48; not an independent match,48,1,FLIPPED
-199,8BIT,EMZ,EDGAR,MEEPLE,COLT,DARRYL,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.20,2,Synthetic swap of match 49; not an independent match,49,1,FLIPPED
-200,KIT,SQUEAK,SPIKE,SHADE,GRIFF,8BIT,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,3,Synthetic swap of match 50; not an independent match,50,1,FLIPPED
-201,BERRY,CHESTER,CHUCK,CORDELIUS,BYRON,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,4,Synthetic swap of match 51; not an independent match,51,1,FLIPPED
-202,BUSTER,SPIKE,ANGELO,BUZZ,BULL,FANG,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,5,Synthetic swap of match 52; not an independent match,52,1,FLIPPED
-203,SPIKE,SURGE,BULL,MORTIS,TARA,LARRY_LAWRIE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,6,Synthetic swap of match 53; not an independent match,53,1,FLIPPED
-204,EDGAR,SHELLY,FRANK,PEARL,RICO,NITA,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,7,Synthetic swap of match 54; not an independent match,54,1,FLIPPED
-205,RICO,GUS,COLT,RICO,HANK,EDGAR,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,8,Synthetic swap of match 55; not an independent match,55,1,FLIPPED
-206,COLT,MAISIE,GUS,JUJU,MAISIE,EL_PRIMO,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,9,Synthetic swap of match 56; not an independent match,56,1,FLIPPED
-207,SURGE,EDGAR,BUZZ,POCO,CROW,MANDY,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,10,Synthetic swap of match 57; not an independent match,57,1,FLIPPED
-208,FANG,EMZ,BIBI,STU,GRIFF,SAM,0,Defeat,,Brawl Ball,Slippery Showdown,Screenshot 2026-10-08 18.00.20,11,Synthetic swap of match 58; not an independent match,58,1,FLIPPED
-209,AMBER,TICK,BO,COLETTE,POCO,BONNIE,1,Victory,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.20,12,Synthetic swap of match 59; not an independent match,59,1,FLIPPED
-210,KENJI,JESSIE,EDGAR,BARLEY,GROM,EDGAR,0,Defeat,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.20,13,Synthetic swap of match 60; not an independent match,60,1,FLIPPED
-211,OLLIE,CHUCK,BONNIE,LOLA,BROCK,BYRON,0,Defeat,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.38,1,Synthetic swap of match 61; not an independent match,61,1,FLIPPED
-212,EDGAR,BROCK,FANG,RUFFS,ASH,CORDELIUS,0,Defeat,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.38,2,Synthetic swap of match 62; not an independent match,62,1,FLIPPED
-213,CROW,EMZ,EDGAR,EDGAR,GENE,GRIFF,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,3,Synthetic swap of match 63; not an independent match,63,1,FLIPPED
-214,LEON,EDGAR,BROCK,BONNIE,PIPER,BELLE,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,4,Synthetic swap of match 64; not an independent match,64,1,FLIPPED
-215,AMBER,GUS,STU,SQUEAK,PIPER,BYRON,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,5,Synthetic swap of match 65; not an independent match,65,1,FLIPPED
-216,EL_PRIMO,GUS,EDGAR,PIPER,BROCK,EVE,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,6,Synthetic swap of match 66; not an independent match,66,1,FLIPPED
-217,ASH,PIPER,COLETTE,PIPER,SURGE,EL_PRIMO,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,7,Synthetic swap of match 67; not an independent match,67,1,FLIPPED
-218,JESSIE,BROCK,COLT,NANI,COLT,ASH,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,8,Synthetic swap of match 68; not an independent match,68,1,FLIPPED
-219,AMBER,GALE,STU,PEARL,PENNY,KAZE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,9,Synthetic swap of match 69; not an independent match,69,1,FLIPPED
-220,SPIKE,GRIFF,EMZ,PENNY,BONNIE,BEA,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,10,Synthetic swap of match 70; not an independent match,70,1,FLIPPED
-221,SHELLY,BIBI,SURGE,SHADE,EMZ,SPIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.38,11,Synthetic swap of match 71; not an independent match,71,1,FLIPPED
-222,EL_PRIMO,CLANCY,STU,FANG,SPIKE,BIBI,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.38,12,Synthetic swap of match 72; not an independent match,72,1,FLIPPED
-223,BUZZ,GRIFF,STARR_NOVA,BIBI,LEON,PIPER,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.23,1,Synthetic swap of match 73; not an independent match,73,1,FLIPPED
-224,BELLE,SQUEAK,PIPER,LEON,MAISIE,MANDY,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,2,Synthetic swap of match 74; not an independent match,74,1,FLIPPED
-225,GUS,PIPER,BO,MANDY,PIPER,LILY,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,3,Synthetic swap of match 75; not an independent match,75,1,FLIPPED
-226,EMZ,EDGAR,BROCK,EVE,BYRON,FANG,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,4,Synthetic swap of match 76; not an independent match,76,1,FLIPPED
-227,COLT,FRANK,EDGAR,LOU,PIPER,GUS,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,5,Synthetic swap of match 77; not an independent match,77,1,FLIPPED
-228,PIPER,SPROUT,EDGAR,GUS,PIERCE,BO,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,6,Synthetic swap of match 78; not an independent match,78,1,FLIPPED
-229,GUS,POCO,EDGAR,POCO,MR_P,MORTIS,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.23,7,Synthetic swap of match 79; not an independent match,79,1,FLIPPED
-230,MAX,GRIFF,BOLT,PIPER,EMZ,EVE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.23,8,Synthetic swap of match 80; not an independent match,80,1,FLIPPED
-231,ASH,BYRON,BROCK,GENE,PIPER,BROCK,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.23,9,Synthetic swap of match 81; not an independent match,81,1,FLIPPED
-232,FRANK,KENJI,BO,DAMIAN,CHESTER,TARA,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.23,10,Synthetic swap of match 82; not an independent match,82,1,FLIPPED
-233,MORTIS,COLETTE,BIBI,OTIS,SHADE,GRIFF,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.23,11,Synthetic swap of match 83; not an independent match,83,1,FLIPPED
-234,8BIT,EL_PRIMO,DARRYL,BOLT,RICO,NITA,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,12,Synthetic swap of match 84; not an independent match,84,1,FLIPPED
-235,EDGAR,EMZ,SQUEAK,BELLE,BO,MELODIE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,1,Synthetic swap of match 85; not an independent match,85,1,FLIPPED
-236,BULL,DARRYL,COLT,RICO,ALLI,MICO,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,2,Synthetic swap of match 86; not an independent match,86,1,FLIPPED
-237,CHARLIE,EMZ,SQUEAK,STU,COLETTE,KAZE,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.36,3,Synthetic swap of match 87; not an independent match,87,1,FLIPPED
-238,EMZ,SURGE,DYNAMIKE,OTIS,STU,CHUCK,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.36,4,Synthetic swap of match 88; not an independent match,88,1,FLIPPED
-239,SPIKE,CROW,SURGE,FRANK,DOUG,BULL,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.36,5,Synthetic swap of match 89; not an independent match,89,1,FLIPPED
-240,TICK,MORTIS,BOLT,PIPER,WILLOW,BYRON,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.36,6,Synthetic swap of match 90; not an independent match,90,1,FLIPPED
-241,RT,CROW,PIPER,STU,COLT,BROCK,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.36,7,Synthetic swap of match 91; not an independent match,91,1,FLIPPED
-242,NITA,PENNY,EDGAR,GRAY,MELODIE,BO,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,8,Synthetic swap of match 92; not an independent match,92,1,FLIPPED
-243,PAM,BEA,BUZZ,BUSTER,LILY,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,9,Synthetic swap of match 93; not an independent match,93,1,FLIPPED
-244,OTIS,MORTIS,SHELLY,OTIS,GENE,KENJI,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,10,Synthetic swap of match 94; not an independent match,94,1,FLIPPED
-245,DARRYL,SPIKE,EDGAR,BO,JANET,COLETTE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,11,Synthetic swap of match 95; not an independent match,95,1,FLIPPED
-246,FRANK,ROSA,JESSIE,AMBER,JANET,EVE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,12,Synthetic swap of match 96; not an independent match,96,1,FLIPPED
-247,SURGE,BYRON,BO,MANDY,FANG,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,13,Synthetic swap of match 97; not an independent match,97,1,FLIPPED
-248,MEG,BIBI,RICO,EDGAR,GRAY,MORTIS,0,Defeat,,Brawl Ball,Raging Ocean,Screenshot 2026-10-11 at 17.05.39.png,1,Synthetic swap of match 98; not an independent match,98,1,FLIPPED
-249,AMBER,PIPER,MEG,MICO,MELODIE,EMZ,1,Victory,,Heist,Jedna,Screenshot 2026-10-11 at 17.05.39.png,2,Synthetic swap of match 99; not an independent match,99,1,FLIPPED
-250,CROW,COLETTE,BROCK,PENNY,SURGE,SHADE,0,Defeat,,Heist,Jedna,Screenshot 2026-10-11 at 17.05.39.png,3,Synthetic swap of match 100; not an independent match,100,1,FLIPPED
-251,CHUCK,SANDY,COLETTE,CARL,MICO,NITA,1,Victory,,Heist,Jedna,Screenshot 2026-10-11 at 17.05.39.png,4,Synthetic swap of match 101; not an independent match,101,1,FLIPPED
-252,BYRON,LILY,MANDY,GENE,LEON,BYRON,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.05.39.png,5,Synthetic swap of match 102; not an independent match,102,1,FLIPPED
-253,CROW,SPIKE,BELLE,PIPER,JANET,LEON,0,Defeat,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.05.39.png,6,Synthetic swap of match 103; not an independent match,103,1,FLIPPED
-254,SPIKE,COLT,PIPER,JESSIE,CHESTER,EL_PRIMO,1,Victory,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.49.png,1,Synthetic swap of match 104; not an independent match,104,1,FLIPPED
-255,EDGAR,NITA,DYNAMIKE,COSMO,SHELLY,ROSA,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.49.png,2,Synthetic swap of match 105; not an independent match,105,1,FLIPPED
-256,SANDY,RICO,EL_PRIMO,WENDY,JACKY,CARL,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.49.png,3,Synthetic swap of match 106; not an independent match,106,1,FLIPPED
-257,EMZ,COLT,EL_PRIMO,STARR_NOVA,NITA,CARL,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.05.49.png,4,Synthetic swap of match 107; not an independent match,107,1,FLIPPED
-258,BUSTER,TARA,BARLEY,DAMIAN,MAISIE,OTIS,0,Defeat,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.05.49.png,5,Synthetic swap of match 108; not an independent match,108,1,FLIPPED
-259,RICO,NITA,FRANK,BUZZ,NAJIA,COSMO,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.49.png,6,Synthetic swap of match 109; not an independent match,109,1,FLIPPED
-260,DARRYL,JANET,TICK,BROCK,8BIT,GLOWY,0,Defeat,,Brawl Ball,Raging Ocean,Screenshot 2026-10-11 at 17.05.49.png,7,Synthetic swap of match 110; not an independent match,110,1,FLIPPED
-261,RICO,EMZ,FANG,GIGI,CHARLIE,JESSIE,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.59.png,1,Synthetic swap of match 111; not an independent match,111,1,FLIPPED
-262,EDGAR,BULL,RICO,ZIGGY,SHELLY,TICK,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.05.59.png,2,Synthetic swap of match 112; not an independent match,112,1,FLIPPED
-263,MINA,SURGE,8BIT,BOLT,LILY,BELLE,1,Victory,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.05.59.png,3,Synthetic swap of match 113; not an independent match,113,1,FLIPPED
-264,DYNAMIKE,SURGE,RICO,GRIFF,CLANCY,ALLI,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.59.png,4,Synthetic swap of match 114; not an independent match,114,1,FLIPPED
-265,TICK,COLETTE,CHARLIE,BIBI,JAEYONG,CROW,1,Victory,,Brawl Ball,Raging Ocean,Screenshot 2026-10-11 at 17.05.59.png,5,Synthetic swap of match 115; not an independent match,115,1,FLIPPED
-266,NAJIA,SHELLY,BULL,LUMI,CHESTER,ROSA,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.59.png,6,Synthetic swap of match 116; not an independent match,116,1,FLIPPED
-267,MINA,CROW,LOU,FINX,COLT,EMZ,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.59.png,7,Synthetic swap of match 117; not an independent match,117,1,FLIPPED
-268,OLLIE,COLT,BROCK,EMZ,ALLI,COLETTE,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.06.10.png,1,Synthetic swap of match 118; not an independent match,118,1,FLIPPED
-269,SHELLY,FRANK,EMZ,JUJU,RICO,SPIKE,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.06.10.png,2,Synthetic swap of match 119; not an independent match,119,1,FLIPPED
-270,SHELLY,RICO,FRANK,MOE,LUMI,COSMO,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.06.10.png,3,Synthetic swap of match 120; not an independent match,120,1,FLIPPED
-271,TICK,DARRYL,8BIT,CLANCY,BEA,SHELLY,0,Defeat,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.06.10.png,4,Synthetic swap of match 121; not an independent match,121,1,FLIPPED
-272,LILY,SURGE,EDGAR,CHESTER,BYRON,CROW,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.06.10.png,5,Synthetic swap of match 122; not an independent match,122,1,FLIPPED
-273,SHADE,MORTIS,JACKY,EDGAR,SAM,BROCK,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,1,Synthetic swap of match 123; not an independent match,123,1,FLIPPED
-274,KENJI,MORTIS,8BIT,EMZ,FRANK,BUZZ,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,2,Synthetic swap of match 124; not an independent match,124,1,FLIPPED
-275,STU,GIGI,TICK,COLT,TARA,SHELLY,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,3,Synthetic swap of match 125; not an independent match,125,1,FLIPPED
-276,EL_PRIMO,SURGE,POCO,JACKY,CARL,BERRY,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,4,Synthetic swap of match 126; not an independent match,126,1,FLIPPED
-277,MANDY,BYRON,CARL,CARL,COLT,PENNY,1,Victory,,Brawl Ball,Sunny Soccer,IMG_1310.png,5,Synthetic swap of match 127; not an independent match,127,1,FLIPPED
-278,EL_PRIMO,SURGE,DYNAMIKE,DARRYL,MORTIS,RICO,1,Victory,,Brawl Ball,Sunny Soccer,IMG_1311.png,1,Synthetic swap of match 128; not an independent match,128,1,FLIPPED
-279,MEG,EDGAR,FRANK,POCO,EL_PRIMO,DARRYL,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,2,Synthetic swap of match 129; not an independent match,129,1,FLIPPED
-280,NORI,EL_PRIMO,RICO,MORTIS,BULL,BELLE,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,3,Synthetic swap of match 130; not an independent match,130,1,FLIPPED
-281,DYNAMIKE,RICO,MORTIS,FANG,CORDELIUS,SPIKE,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,4,Synthetic swap of match 131; not an independent match,131,1,FLIPPED
-282,JESSIE,KENJI,LARRY_LAWRIE,TARA,BIBI,MORTIS,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,5,Synthetic swap of match 132; not an independent match,132,1,FLIPPED
-283,WILLOW,SQUEAK,KENJI,ROSA,CHESTER,TICK,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,6,Synthetic swap of match 133; not an independent match,133,1,FLIPPED
-284,BIBI,POCO,CORDELIUS,JACKY,GUS,COLT,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1312.png,1,Synthetic swap of match 134; not an independent match,134,1,FLIPPED
-285,BARLEY,DARRYL,MORTIS,CROW,JACKY,BUZZ,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,2,Synthetic swap of match 135; not an independent match,135,1,FLIPPED
-286,EL_PRIMO,EMZ,SHADE,COLT,OLLIE,SHELLY,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,3,Synthetic swap of match 136; not an independent match,136,1,FLIPPED
-287,COLT,EDGAR,KENJI,CHARLIE,MAX,BROCK,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1312.png,4,Synthetic swap of match 137; not an independent match,137,1,FLIPPED
-288,PIERCE,COLT,BULL,MORTIS,BIBI,COLT,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,5,Synthetic swap of match 138; not an independent match,138,1,FLIPPED
-289,GUS,FANG,COLT,PENNY,BUZZ,SPIKE,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,6,Synthetic swap of match 139; not an independent match,139,1,FLIPPED
-290,JESSIE,MAX,NITA,PIPER,FRANK,CARL,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1313.png,1,Synthetic swap of match 140; not an independent match,140,1,FLIPPED
-291,NANI,SHELLY,COLT,SHELLY,EL_PRIMO,COLT,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1313.png,2,Synthetic swap of match 141; not an independent match,141,1,FLIPPED
-292,PIPER,GUS,SIRIUS,GRAY,RUFFS,BROCK,0,Defeat,,Knockout,Stroke of Luck,IMG_1313.png,3,Synthetic swap of match 142; not an independent match,142,1,FLIPPED
-293,POCO,EMZ,KAZE,RICO,BO,TICK,1,Victory,,Gem Grab,Bottom Two,IMG_1313.png,4,Synthetic swap of match 143; not an independent match,143,1,FLIPPED
-294,EDGAR,COLT,RICO,NORI,NITA,EMZ,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1313.png,5,Synthetic swap of match 144; not an independent match,144,1,FLIPPED
-295,EDGAR,JESSIE,RICO,PIERCE,EL_PRIMO,POCO,1,Victory,,Gem Grab,Lilygear Lake,IMG_1313.png,6,Synthetic swap of match 145; not an independent match,145,1,FLIPPED
-296,HANK,KENJI,ROSA,ROSA,LEON,ALLI,0,Defeat,,Gem Grab,Lilygear Lake,IMG_1314.jpeg,1,Synthetic swap of match 146; not an independent match,146,1,FLIPPED
-297,POCO,MEG,LILY,DRACO,TARA,PIPER,0,Defeat,,Gem Grab,Lilygear Lake,IMG_1314.jpeg,2,Synthetic swap of match 147; not an independent match,147,1,FLIPPED
-298,MORTIS,BROCK,SURGE,STU,BROCK,PIPER,1,Victory,,Brawl Ball,Super Beach,N/A,1,Synthetic swap of match 148; not an independent match,148,1,FLIPPED
-299,COLT,BO,CORDELIUS,COLT,SHADE,EL_PRIMO,1,Victory,,Brawl Ball,Super Beach,N/A,2,Synthetic swap of match 149; not an independent match,149,1,FLIPPED
-300,POCO,DARRYL,GALE,PIPER,MORTIS,GUS,0,Defeat,,Brawl Ball,Super Beach,N/A,3,Synthetic swap of match 150; not an independent match,150,1,FLIPPED
+151,TARA,FANG,DYNAMIKE,RICO,CARL,GRIFF,1,Victory,20,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,1,Manual screenshot transcription; portraits checked,151,0,ORIGINAL
+152,BULL,POCO,JUJU,SURGE,BELLE,SHADE,1,Victory,12,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,2,Manual screenshot transcription; portraits checked,152,0,ORIGINAL
+153,BUZZ,DYNAMIKE,NITA,KENJI,SHADE,STU,1,Victory,10,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,3,Manual screenshot transcription; portraits checked,153,0,ORIGINAL
+154,SURGE,JESSIE,EDGAR,RICO,EDGAR,KENJI,1,Victory,13,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,4,Manual screenshot transcription; portraits checked,154,0,ORIGINAL
+155,CORDELIUS,COLETTE,MORTIS,OLLIE,COLT,EL_PRIMO,1,Victory,11,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,5,Manual screenshot transcription; portraits checked,155,0,ORIGINAL
+156,EL_PRIMO,RICO,MAX,BIBI,SURGE,RICO,1,Victory,12,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,6,Manual screenshot transcription; portraits checked,156,0,ORIGINAL
+157,RICO,OLLIE,BERRY,ZIGGY,KENJI,GALE,1,Victory,11,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,7,Manual screenshot transcription; portraits checked,157,0,ORIGINAL
+158,BEA,GALE,NITA,CHESTER,JACKY,FANG,1,Victory,11,Brawl Ball,Pump It Up,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,8,Manual screenshot transcription; portraits checked,158,0,ORIGINAL
+159,GRIFF,NITA,SPIKE,LILY,CORDELIUS,EMZ,0,Defeat,,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,4,Manual screenshot transcription; trophy change illegible,159,0,ORIGINAL
+160,BUZZ,TARA,CARL,DARRYL,BIBI,BYRON,1,Victory,11,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,5,Manual screenshot transcription; portraits checked,160,0,ORIGINAL
+161,MORTIS,FRANK,BUZZ,BROCK,SPIKE,PIPER,1,Victory,14,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,6,Manual screenshot transcription; portraits checked,161,0,ORIGINAL
+162,COLT,NITA,OTIS,8BIT,EMZ,EDGAR,1,Victory,10,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,7,Manual screenshot transcription; portraits checked,162,0,ORIGINAL
+163,MORTIS,PIPER,MINA,DYNAMIKE,BIBI,MORTIS,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,1,Synthetic side swap of match 1; not independent,1,1,FLIPPED
+164,CLANCY,MORTIS,EVE,EL_PRIMO,DYNAMIKE,DAMIAN,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,2,Synthetic side swap of match 2; not independent,2,1,FLIPPED
+165,STU,EL_PRIMO,DYNAMIKE,EDGAR,SHELLY,FANG,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,3,Synthetic side swap of match 3; not independent,3,1,FLIPPED
+166,MORTIS,STARR_NOVA,DYNAMIKE,BUZZ,STU,BO,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,4,Synthetic side swap of match 4; not independent,4,1,FLIPPED
+167,BIBI,CROW,MORTIS,STARR_NOVA,DYNAMIKE,MORTIS,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,5,Synthetic side swap of match 5; not independent,5,1,FLIPPED
+168,CROW,OTIS,DYNAMIKE,POCO,BULL,BROCK,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,6,Synthetic side swap of match 6; not independent,6,1,FLIPPED
+169,DYNAMIKE,MINA,COLETTE,BOLT,COLETTE,GALE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,7,Synthetic side swap of match 7; not independent,7,1,FLIPPED
+170,EMZ,COLETTE,LEON,CLANCY,COLT,DYNAMIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,8,Synthetic side swap of match 8; not independent,8,1,FLIPPED
+171,COLT,CLANCY,DYNAMIKE,COLT,SPIKE,LILY,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,9,Synthetic side swap of match 9; not independent,9,1,FLIPPED
+172,RICO,CHUCK,MORTIS,DYNAMIKE,SAM,SIRIUS,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,10,Synthetic side swap of match 10; not independent,10,1,FLIPPED
+173,RICO,SURGE,FANG,DYNAMIKE,BYRON,EDGAR,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 1,11,Synthetic side swap of match 11; not independent,11,1,FLIPPED
+174,CROW,MORTIS,DARRYL,MORTIS,DYNAMIKE,MINA,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 1,12,Synthetic side swap of match 12; not independent,12,1,FLIPPED
+175,POCO,MORTIS,DYNAMIKE,BIBI,MORTIS,FANG,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,1,Synthetic side swap of match 13; not independent,13,1,FLIPPED
+176,EDGAR,RICO,MORTIS,MORTIS,DYNAMIKE,POCO,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,2,Synthetic side swap of match 14; not independent,14,1,FLIPPED
+177,DYNAMIKE,SURGE,MORTIS,LEON,CROW,SURGE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,3,Synthetic side swap of match 15; not independent,15,1,FLIPPED
+178,FANG,BOLT,CHESTER,DYNAMIKE,MORTIS,EDGAR,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,4,Synthetic side swap of match 16; not independent,16,1,FLIPPED
+179,DYNAMIKE,EDGAR,SHELLY,LILY,JACKY,MORTIS,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,5,Synthetic side swap of match 17; not independent,17,1,FLIPPED
+180,DYNAMIKE,BIBI,EDGAR,RICO,EDGAR,BROCK,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,6,Synthetic side swap of match 18; not independent,18,1,FLIPPED
+181,KENJI,LEON,BO,DYNAMIKE,BULL,CHESTER,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,7,Synthetic side swap of match 19; not independent,19,1,FLIPPED
+182,COLT,CHESTER,KENJI,COLT,MORTIS,DYNAMIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,8,Synthetic side swap of match 20; not independent,20,1,FLIPPED
+183,COLT,MORTIS,DYNAMIKE,GRIFF,EL_PRIMO,BULL,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,9,Synthetic side swap of match 21; not independent,21,1,FLIPPED
+184,COLETTE,BULL,DYNAMIKE,CHESTER,BULL,COLETTE,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,10,Synthetic side swap of match 22; not independent,22,1,FLIPPED
+185,EDGAR,CORDELIUS,DYNAMIKE,COLETTE,BULL,DYNAMIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2,11,Synthetic side swap of match 23; not independent,23,1,FLIPPED
+186,MORTIS,DYNAMIKE,FANG,DARRYL,EL_PRIMO,COLT,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,12,Synthetic side swap of match 24; not independent,24,1,FLIPPED
+187,MORTIS,BULL,CHESTER,MORTIS,DYNAMIKE,SPIKE,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2,13,Synthetic side swap of match 25; not independent,25,1,FLIPPED
+188,EDGAR,COLT,SHELLY,STU,MORTIS,FRANK,0,Defeat,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,1,Synthetic side swap of match 26; not independent,26,1,FLIPPED
+189,DYNAMIKE,FRANK,BIBI,PAM,COLT,SPIKE,1,Victory,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.46,2,Synthetic side swap of match 27; not independent,27,1,FLIPPED
+190,BROCK,NAJIA,PIPER,COLT,PIPER,STU,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,3,Synthetic side swap of match 28; not independent,28,1,FLIPPED
+191,BROCK,LEON,EDGAR,BO,PIPER,CHESTER,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,4,Synthetic side swap of match 29; not independent,29,1,FLIPPED
+192,BROCK,PIPER,EMZ,ANGELO,PIPER,GUS,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,5,Synthetic side swap of match 30; not independent,30,1,FLIPPED
+193,COLT,DYNAMIKE,EDGAR,JACKY,PIPER,KIT,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.46,6,Synthetic side swap of match 31; not independent,31,1,FLIPPED
+194,PIPER,8BIT,TICK,JANET,EMZ,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,7,Synthetic side swap of match 32; not independent,32,1,FLIPPED
+195,COSMO,TICK,BIBI,TICK,EMZ,CHESTER,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,8,Synthetic side swap of match 33; not independent,33,1,FLIPPED
+196,STARR_NOVA,SHADE,BO,JESSIE,CARL,PENNY,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.46,9,Synthetic side swap of match 34; not independent,34,1,FLIPPED
+197,BARLEY,DYNAMIKE,PENNY,KENJI,TICK,GRIFF,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,10,Synthetic side swap of match 35; not independent,35,1,FLIPPED
+198,DARRYL,DYNAMIKE,BUZZ,MANDY,LILY,8BIT,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.46,11,Synthetic side swap of match 36; not independent,36,1,FLIPPED
+199,SHELLY,NITA,RICO,BROCK,SURGE,PENNY,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,3,Synthetic side swap of match 37; not independent,37,1,FLIPPED
+200,JESSIE,AMBER,MINA,EMZ,COLT,COLETTE,0,Defeat,,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,4,Synthetic side swap of match 38; not independent,38,1,FLIPPED
+201,EMZ,COLT,TICK,ROSA,EDGAR,RICO,0,Defeat,,Basket Brawl,Pocket Pass,Screenshot 2026-10-08 02.02.33,5,Synthetic side swap of match 39; not independent,39,1,FLIPPED
+202,JACKY,BUZZ,SPIKE,POCO,COLETTE,COLT,0,Defeat,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,6,Synthetic side swap of match 40; not independent,40,1,FLIPPED
+203,BARLEY,BROCK,COLETTE,GALE,GROM,MAISIE,0,Defeat,,Brawl Ball,Net Presence,Screenshot 2026-10-08 02.02.33,7,Synthetic side swap of match 41; not independent,41,1,FLIPPED
+204,8BIT,PENNY,GRIFF,COLETTE,EL_PRIMO,BROCK,0,Defeat,,Heist,Photic Doom,Screenshot 2026-10-08 02.02.33,8,Synthetic side swap of match 42; not independent,42,1,FLIPPED
+205,CROW,EDGAR,COLT,ANGELO,LEON,BROCK,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,9,Synthetic side swap of match 43; not independent,43,1,FLIPPED
+206,PIPER,RICO,BEA,ANGELO,JUJU,BULL,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 02.02.33,10,Synthetic side swap of match 44; not independent,44,1,FLIPPED
+207,COLT,MORTIS,PIPER,MANDY,BO,EDGAR,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 02.02.33,11,Synthetic side swap of match 45; not independent,45,1,FLIPPED
+208,GRIFF,EMZ,EDGAR,NITA,COLT,BIBI,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,12,Synthetic side swap of match 46; not independent,46,1,FLIPPED
+209,CROW,EDGAR,GRIFF,MEEPLE,RICO,SHELLY,0,Defeat,,Brawl Ball,Pinball Dreams,Screenshot 2026-10-08 02.02.33,13,Synthetic side swap of match 47; not independent,47,1,FLIPPED
+210,8BIT,SHELLY,COLT,TRUNK,RICO,DARRYL,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.20,1,Synthetic side swap of match 48; not independent,48,1,FLIPPED
+211,8BIT,EMZ,EDGAR,MEEPLE,COLT,DARRYL,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.20,2,Synthetic side swap of match 49; not independent,49,1,FLIPPED
+212,KIT,SQUEAK,SPIKE,SHADE,GRIFF,8BIT,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,3,Synthetic side swap of match 50; not independent,50,1,FLIPPED
+213,BERRY,CHESTER,CHUCK,CORDELIUS,BYRON,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,4,Synthetic side swap of match 51; not independent,51,1,FLIPPED
+214,BUSTER,SPIKE,ANGELO,BUZZ,BULL,FANG,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.20,5,Synthetic side swap of match 52; not independent,52,1,FLIPPED
+215,SPIKE,SURGE,BULL,MORTIS,TARA,LARRY_LAWRIE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,6,Synthetic side swap of match 53; not independent,53,1,FLIPPED
+216,EDGAR,SHELLY,FRANK,PEARL,RICO,NITA,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,7,Synthetic side swap of match 54; not independent,54,1,FLIPPED
+217,RICO,GUS,COLT,RICO,HANK,EDGAR,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,8,Synthetic side swap of match 55; not independent,55,1,FLIPPED
+218,COLT,MAISIE,GUS,JUJU,MAISIE,EL_PRIMO,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,9,Synthetic side swap of match 56; not independent,56,1,FLIPPED
+219,SURGE,EDGAR,BUZZ,POCO,CROW,MANDY,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.20,10,Synthetic side swap of match 57; not independent,57,1,FLIPPED
+220,FANG,EMZ,BIBI,STU,GRIFF,SAM,0,Defeat,,Brawl Ball,Slippery Showdown,Screenshot 2026-10-08 18.00.20,11,Synthetic side swap of match 58; not independent,58,1,FLIPPED
+221,AMBER,TICK,BO,COLETTE,POCO,BONNIE,1,Victory,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.20,12,Synthetic side swap of match 59; not independent,59,1,FLIPPED
+222,KENJI,JESSIE,EDGAR,BARLEY,GROM,EDGAR,0,Defeat,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.20,13,Synthetic side swap of match 60; not independent,60,1,FLIPPED
+223,OLLIE,CHUCK,BONNIE,LOLA,BROCK,BYRON,0,Defeat,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.38,1,Synthetic side swap of match 61; not independent,61,1,FLIPPED
+224,EDGAR,BROCK,FANG,RUFFS,ASH,CORDELIUS,0,Defeat,,Hot Zone,Golden Bay,Screenshot 2026-10-08 18.00.38,2,Synthetic side swap of match 62; not independent,62,1,FLIPPED
+225,CROW,EMZ,EDGAR,EDGAR,GENE,GRIFF,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,3,Synthetic side swap of match 63; not independent,63,1,FLIPPED
+226,LEON,EDGAR,BROCK,BONNIE,PIPER,BELLE,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,4,Synthetic side swap of match 64; not independent,64,1,FLIPPED
+227,AMBER,GUS,STU,SQUEAK,PIPER,BYRON,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,5,Synthetic side swap of match 65; not independent,65,1,FLIPPED
+228,EL_PRIMO,GUS,EDGAR,PIPER,BROCK,EVE,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 18.00.38,6,Synthetic side swap of match 66; not independent,66,1,FLIPPED
+229,ASH,PIPER,COLETTE,PIPER,SURGE,EL_PRIMO,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,7,Synthetic side swap of match 67; not independent,67,1,FLIPPED
+230,JESSIE,BROCK,COLT,NANI,COLT,ASH,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,8,Synthetic side swap of match 68; not independent,68,1,FLIPPED
+231,AMBER,GALE,STU,PEARL,PENNY,KAZE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,9,Synthetic side swap of match 69; not independent,69,1,FLIPPED
+232,SPIKE,GRIFF,EMZ,PENNY,BONNIE,BEA,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 18.00.38,10,Synthetic side swap of match 70; not independent,70,1,FLIPPED
+233,SHELLY,BIBI,SURGE,SHADE,EMZ,SPIKE,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.38,11,Synthetic side swap of match 71; not independent,71,1,FLIPPED
+234,EL_PRIMO,CLANCY,STU,FANG,SPIKE,BIBI,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 18.00.38,12,Synthetic side swap of match 72; not independent,72,1,FLIPPED
+235,BUZZ,GRIFF,STARR_NOVA,BIBI,LEON,PIPER,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.23,1,Synthetic side swap of match 73; not independent,73,1,FLIPPED
+236,BELLE,SQUEAK,PIPER,LEON,MAISIE,MANDY,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,2,Synthetic side swap of match 74; not independent,74,1,FLIPPED
+237,GUS,PIPER,BO,MANDY,PIPER,LILY,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,3,Synthetic side swap of match 75; not independent,75,1,FLIPPED
+238,EMZ,EDGAR,BROCK,EVE,BYRON,FANG,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,4,Synthetic side swap of match 76; not independent,76,1,FLIPPED
+239,COLT,FRANK,EDGAR,LOU,PIPER,GUS,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,5,Synthetic side swap of match 77; not independent,77,1,FLIPPED
+240,PIPER,SPROUT,EDGAR,GUS,PIERCE,BO,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,6,Synthetic side swap of match 78; not independent,78,1,FLIPPED
+241,GUS,POCO,EDGAR,POCO,MR_P,MORTIS,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.23,7,Synthetic side swap of match 79; not independent,79,1,FLIPPED
+242,MAX,GRIFF,BOLT,PIPER,EMZ,EVE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.23,8,Synthetic side swap of match 80; not independent,80,1,FLIPPED
+243,ASH,BYRON,BROCK,GENE,PIPER,BROCK,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.23,9,Synthetic side swap of match 81; not independent,81,1,FLIPPED
+244,FRANK,KENJI,BO,DAMIAN,CHESTER,TARA,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.23,10,Synthetic side swap of match 82; not independent,82,1,FLIPPED
+245,MORTIS,COLETTE,BIBI,OTIS,SHADE,GRIFF,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.23,11,Synthetic side swap of match 83; not independent,83,1,FLIPPED
+246,8BIT,EL_PRIMO,DARRYL,BOLT,RICO,NITA,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.23,12,Synthetic side swap of match 84; not independent,84,1,FLIPPED
+247,EDGAR,EMZ,SQUEAK,BELLE,BO,MELODIE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,1,Synthetic side swap of match 85; not independent,85,1,FLIPPED
+248,BULL,DARRYL,COLT,RICO,ALLI,MICO,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,2,Synthetic side swap of match 86; not independent,86,1,FLIPPED
+249,CHARLIE,EMZ,SQUEAK,STU,COLETTE,KAZE,1,Victory,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.36,3,Synthetic side swap of match 87; not independent,87,1,FLIPPED
+250,EMZ,SURGE,DYNAMIKE,OTIS,STU,CHUCK,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.36,4,Synthetic side swap of match 88; not independent,88,1,FLIPPED
+251,SPIKE,CROW,SURGE,FRANK,DOUG,BULL,0,Defeat,,Brawl Ball,Pinhole Punt,Screenshot 2026-10-08 19.12.36,5,Synthetic side swap of match 89; not independent,89,1,FLIPPED
+252,TICK,MORTIS,BOLT,PIPER,WILLOW,BYRON,1,Victory,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.36,6,Synthetic side swap of match 90; not independent,90,1,FLIPPED
+253,RT,CROW,PIPER,STU,COLT,BROCK,0,Defeat,,Knockout,Jungle Top,Screenshot 2026-10-08 19.12.36,7,Synthetic side swap of match 91; not independent,91,1,FLIPPED
+254,NITA,PENNY,EDGAR,GRAY,MELODIE,BO,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,8,Synthetic side swap of match 92; not independent,92,1,FLIPPED
+255,PAM,BEA,BUZZ,BUSTER,LILY,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,9,Synthetic side swap of match 93; not independent,93,1,FLIPPED
+256,OTIS,MORTIS,SHELLY,OTIS,GENE,KENJI,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,10,Synthetic side swap of match 94; not independent,94,1,FLIPPED
+257,DARRYL,SPIKE,EDGAR,BO,JANET,COLETTE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,11,Synthetic side swap of match 95; not independent,95,1,FLIPPED
+258,FRANK,ROSA,JESSIE,AMBER,JANET,EVE,0,Defeat,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,12,Synthetic side swap of match 96; not independent,96,1,FLIPPED
+259,SURGE,BYRON,BO,MANDY,FANG,BO,1,Victory,,Gem Grab,Dungeon Train,Screenshot 2026-10-08 19.12.36,13,Synthetic side swap of match 97; not independent,97,1,FLIPPED
+260,MEG,BIBI,RICO,EDGAR,GRAY,MORTIS,0,Defeat,,Brawl Ball,Raging Ocean,Screenshot 2026-10-11 at 17.05.39.png,1,Synthetic side swap of match 98; not independent,98,1,FLIPPED
+261,AMBER,PIPER,MEG,MICO,MELODIE,EMZ,1,Victory,,Heist,Jedna,Screenshot 2026-10-11 at 17.05.39.png,2,Synthetic side swap of match 99; not independent,99,1,FLIPPED
+262,CROW,COLETTE,BROCK,PENNY,SURGE,SHADE,0,Defeat,,Heist,Jedna,Screenshot 2026-10-11 at 17.05.39.png,3,Synthetic side swap of match 100; not independent,100,1,FLIPPED
+263,CHUCK,SANDY,COLETTE,CARL,MICO,NITA,1,Victory,,Heist,Jedna,Screenshot 2026-10-11 at 17.05.39.png,4,Synthetic side swap of match 101; not independent,101,1,FLIPPED
+264,BYRON,LILY,MANDY,GENE,LEON,BYRON,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.05.39.png,5,Synthetic side swap of match 102; not independent,102,1,FLIPPED
+265,CROW,SPIKE,BELLE,PIPER,JANET,LEON,0,Defeat,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.05.39.png,6,Synthetic side swap of match 103; not independent,103,1,FLIPPED
+266,SPIKE,COLT,PIPER,JESSIE,CHESTER,EL_PRIMO,1,Victory,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.49.png,1,Synthetic side swap of match 104; not independent,104,1,FLIPPED
+267,EDGAR,NITA,DYNAMIKE,COSMO,SHELLY,ROSA,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.49.png,2,Synthetic side swap of match 105; not independent,105,1,FLIPPED
+268,SANDY,RICO,EL_PRIMO,WENDY,JACKY,CARL,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.49.png,3,Synthetic side swap of match 106; not independent,106,1,FLIPPED
+269,EMZ,COLT,EL_PRIMO,STARR_NOVA,NITA,CARL,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.05.49.png,4,Synthetic side swap of match 107; not independent,107,1,FLIPPED
+270,BUSTER,TARA,BARLEY,DAMIAN,MAISIE,OTIS,0,Defeat,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.05.49.png,5,Synthetic side swap of match 108; not independent,108,1,FLIPPED
+271,RICO,NITA,FRANK,BUZZ,NAJIA,COSMO,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.49.png,6,Synthetic side swap of match 109; not independent,109,1,FLIPPED
+272,DARRYL,JANET,TICK,BROCK,8BIT,GLOWY,0,Defeat,,Brawl Ball,Raging Ocean,Screenshot 2026-10-11 at 17.05.49.png,7,Synthetic side swap of match 110; not independent,110,1,FLIPPED
+273,RICO,EMZ,FANG,GIGI,CHARLIE,JESSIE,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.59.png,1,Synthetic side swap of match 111; not independent,111,1,FLIPPED
+274,EDGAR,BULL,RICO,ZIGGY,SHELLY,TICK,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.05.59.png,2,Synthetic side swap of match 112; not independent,112,1,FLIPPED
+275,MINA,SURGE,8BIT,BOLT,LILY,BELLE,1,Victory,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.05.59.png,3,Synthetic side swap of match 113; not independent,113,1,FLIPPED
+276,DYNAMIKE,SURGE,RICO,GRIFF,CLANCY,ALLI,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.05.59.png,4,Synthetic side swap of match 114; not independent,114,1,FLIPPED
+277,TICK,COLETTE,CHARLIE,BIBI,JAEYONG,CROW,1,Victory,,Brawl Ball,Raging Ocean,Screenshot 2026-10-11 at 17.05.59.png,5,Synthetic side swap of match 115; not independent,115,1,FLIPPED
+278,NAJIA,SHELLY,BULL,LUMI,CHESTER,ROSA,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.59.png,6,Synthetic side swap of match 116; not independent,116,1,FLIPPED
+279,MINA,CROW,LOU,FINX,COLT,EMZ,0,Defeat,,Hot Zone,Tread Carefully,Screenshot 2026-10-11 at 17.05.59.png,7,Synthetic side swap of match 117; not independent,117,1,FLIPPED
+280,OLLIE,COLT,BROCK,EMZ,ALLI,COLETTE,0,Defeat,,Knockout,Call of the Water,Screenshot 2026-10-11 at 17.06.10.png,1,Synthetic side swap of match 118; not independent,118,1,FLIPPED
+281,SHELLY,FRANK,EMZ,JUJU,RICO,SPIKE,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.06.10.png,2,Synthetic side swap of match 119; not independent,119,1,FLIPPED
+282,SHELLY,RICO,FRANK,MOE,LUMI,COSMO,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.06.10.png,3,Synthetic side swap of match 120; not independent,120,1,FLIPPED
+283,TICK,DARRYL,8BIT,CLANCY,BEA,SHELLY,0,Defeat,,Gem Grab,Lilygear Lake,Screenshot 2026-10-11 at 17.06.10.png,4,Synthetic side swap of match 121; not independent,121,1,FLIPPED
+284,LILY,SURGE,EDGAR,CHESTER,BYRON,CROW,0,Defeat,,Brawl Ball,Grass Knot,Screenshot 2026-10-11 at 17.06.10.png,5,Synthetic side swap of match 122; not independent,122,1,FLIPPED
+285,SHADE,MORTIS,JACKY,EDGAR,SAM,BROCK,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,1,Synthetic side swap of match 123; not independent,123,1,FLIPPED
+286,KENJI,MORTIS,8BIT,EMZ,FRANK,BUZZ,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,2,Synthetic side swap of match 124; not independent,124,1,FLIPPED
+287,STU,GIGI,TICK,COLT,TARA,SHELLY,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,3,Synthetic side swap of match 125; not independent,125,1,FLIPPED
+288,EL_PRIMO,SURGE,POCO,JACKY,CARL,BERRY,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1310.png,4,Synthetic side swap of match 126; not independent,126,1,FLIPPED
+289,MANDY,BYRON,CARL,CARL,COLT,PENNY,1,Victory,,Brawl Ball,Sunny Soccer,IMG_1310.png,5,Synthetic side swap of match 127; not independent,127,1,FLIPPED
+290,EL_PRIMO,SURGE,DYNAMIKE,DARRYL,MORTIS,RICO,1,Victory,,Brawl Ball,Sunny Soccer,IMG_1311.png,1,Synthetic side swap of match 128; not independent,128,1,FLIPPED
+291,MEG,EDGAR,FRANK,POCO,EL_PRIMO,DARRYL,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,2,Synthetic side swap of match 129; not independent,129,1,FLIPPED
+292,NORI,EL_PRIMO,RICO,MORTIS,BULL,BELLE,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,3,Synthetic side swap of match 130; not independent,130,1,FLIPPED
+293,DYNAMIKE,RICO,MORTIS,FANG,CORDELIUS,SPIKE,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,4,Synthetic side swap of match 131; not independent,131,1,FLIPPED
+294,JESSIE,KENJI,LARRY_LAWRIE,TARA,BIBI,MORTIS,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,5,Synthetic side swap of match 132; not independent,132,1,FLIPPED
+295,WILLOW,SQUEAK,KENJI,ROSA,CHESTER,TICK,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1311.png,6,Synthetic side swap of match 133; not independent,133,1,FLIPPED
+296,BIBI,POCO,CORDELIUS,JACKY,GUS,COLT,0,Defeat,,Brawl Ball,Sunny Soccer,IMG_1312.png,1,Synthetic side swap of match 134; not independent,134,1,FLIPPED
+297,BARLEY,DARRYL,MORTIS,CROW,JACKY,BUZZ,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,2,Synthetic side swap of match 135; not independent,135,1,FLIPPED
+298,EL_PRIMO,EMZ,SHADE,COLT,OLLIE,SHELLY,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,3,Synthetic side swap of match 136; not independent,136,1,FLIPPED
+299,COLT,EDGAR,KENJI,CHARLIE,MAX,BROCK,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1312.png,4,Synthetic side swap of match 137; not independent,137,1,FLIPPED
+300,PIERCE,COLT,BULL,MORTIS,BIBI,COLT,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,5,Synthetic side swap of match 138; not independent,138,1,FLIPPED
+301,GUS,FANG,COLT,PENNY,BUZZ,SPIKE,1,Victory,,Brawl Ball,Match 1123581321,IMG_1312.png,6,Synthetic side swap of match 139; not independent,139,1,FLIPPED
+302,JESSIE,MAX,NITA,PIPER,FRANK,CARL,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1313.png,1,Synthetic side swap of match 140; not independent,140,1,FLIPPED
+303,NANI,SHELLY,COLT,SHELLY,EL_PRIMO,COLT,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1313.png,2,Synthetic side swap of match 141; not independent,141,1,FLIPPED
+304,PIPER,GUS,SIRIUS,GRAY,RUFFS,BROCK,0,Defeat,,Knockout,Stroke of Luck,IMG_1313.png,3,Synthetic side swap of match 142; not independent,142,1,FLIPPED
+305,POCO,EMZ,KAZE,RICO,BO,TICK,1,Victory,,Gem Grab,Bottom Two,IMG_1313.png,4,Synthetic side swap of match 143; not independent,143,1,FLIPPED
+306,EDGAR,COLT,RICO,NORI,NITA,EMZ,0,Defeat,,Brawl Ball,Match 1123581321,IMG_1313.png,5,Synthetic side swap of match 144; not independent,144,1,FLIPPED
+307,EDGAR,JESSIE,RICO,PIERCE,EL_PRIMO,POCO,1,Victory,,Gem Grab,Lilygear Lake,IMG_1313.png,6,Synthetic side swap of match 145; not independent,145,1,FLIPPED
+308,HANK,KENJI,ROSA,ROSA,LEON,ALLI,0,Defeat,,Gem Grab,Lilygear Lake,IMG_1314.jpeg,1,Synthetic side swap of match 146; not independent,146,1,FLIPPED
+309,POCO,MEG,LILY,DRACO,TARA,PIPER,0,Defeat,,Gem Grab,Lilygear Lake,IMG_1314.jpeg,2,Synthetic side swap of match 147; not independent,147,1,FLIPPED
+310,MORTIS,BROCK,SURGE,STU,BROCK,PIPER,1,Victory,,Brawl Ball,Super Beach,N/A,1,Synthetic side swap of match 148; not independent,148,1,FLIPPED
+311,COLT,BO,CORDELIUS,COLT,SHADE,EL_PRIMO,1,Victory,,Brawl Ball,Super Beach,N/A,2,Synthetic side swap of match 149; not independent,149,1,FLIPPED
+312,POCO,DARRYL,GALE,PIPER,MORTIS,GUS,0,Defeat,,Brawl Ball,Super Beach,N/A,3,Synthetic side swap of match 150; not independent,150,1,FLIPPED
+313,RICO,CARL,GRIFF,TARA,FANG,DYNAMIKE,0,Defeat,,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,1,Synthetic side swap of match 151; not independent,151,1,FLIPPED
+314,SURGE,BELLE,SHADE,BULL,POCO,JUJU,0,Defeat,,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,2,Synthetic side swap of match 152; not independent,152,1,FLIPPED
+315,KENJI,SHADE,STU,BUZZ,DYNAMIKE,NITA,0,Defeat,,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,3,Synthetic side swap of match 153; not independent,153,1,FLIPPED
+316,RICO,EDGAR,KENJI,SURGE,JESSIE,EDGAR,0,Defeat,,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,4,Synthetic side swap of match 154; not independent,154,1,FLIPPED
+317,OLLIE,COLT,EL_PRIMO,CORDELIUS,COLETTE,MORTIS,0,Defeat,,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,5,Synthetic side swap of match 155; not independent,155,1,FLIPPED
+318,BIBI,SURGE,RICO,EL_PRIMO,RICO,MAX,0,Defeat,,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,6,Synthetic side swap of match 156; not independent,156,1,FLIPPED
+319,ZIGGY,KENJI,GALE,RICO,OLLIE,BERRY,0,Defeat,,Brawl Ball,Triple Dribble,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,7,Synthetic side swap of match 157; not independent,157,1,FLIPPED
+320,CHESTER,JACKY,FANG,BEA,GALE,NITA,0,Defeat,,Brawl Ball,Pump It Up,1CFBC72D-F8E3-4C56-B2F2-C8340C7CD9C4.png,8,Synthetic side swap of match 158; not independent,158,1,FLIPPED
+321,LILY,CORDELIUS,EMZ,GRIFF,NITA,SPIKE,1,Victory,,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,4,Synthetic side swap of match 159; not independent,159,1,FLIPPED
+322,DARRYL,BIBI,BYRON,BUZZ,TARA,CARL,0,Defeat,,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,5,Synthetic side swap of match 160; not independent,160,1,FLIPPED
+323,BROCK,SPIKE,PIPER,MORTIS,FRANK,BUZZ,0,Defeat,,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,6,Synthetic side swap of match 161; not independent,161,1,FLIPPED
+324,8BIT,EMZ,EDGAR,COLT,NITA,OTIS,0,Defeat,,Brawl Ball,Pump It Up,Screenshot 2026-10-17 at 01.10.54.png,7,Synthetic side swap of match 162; not independent,162,1,FLIPPED

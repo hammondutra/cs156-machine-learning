@@ -50,7 +50,7 @@ Predict the outcome of a 3v3 Brawl Stars match from both teams' three-brawler co
 - High-ranked data may improve relevance to competitive drafting, but changes the target population, introduces its own selection biases, and does not automatically establish causal composition quality. Compare performance on different skill brackets and balance patches.
 - Later tests: (1) class prior; (2) single-brawler features; (3) signed full composition; (4) separate-side features; optionally brawler-pair synergies when sample size permits. Evaluate on unseen real matches with log loss, Brier score, balanced accuracy and calibration, and report sample uncertainty.
 
-## Final dataset snapshot and integrity
+## October 14 dataset snapshot and integrity
 
 Source of truth: [Google Sheets Battles tab](https://docs.google.com/spreadsheets/d/1PT7GDSb56HKSjGbvmj5-bGVWCmbP8Wo7-tSkRxEk7aQ/edit).
 
@@ -66,3 +66,16 @@ Source of truth: [Google Sheets Battles tab](https://docs.google.com/spreadsheet
 ## Next step
 
 Regenerate the assignment Jupyter notebook from scratch, using these final dataset files. The old prototype notebook was built around an earlier 25-match pilot and must not be presented as final analysis or used with naive row-wise CV on mirrored data.
+
+## October 17 — Additional Brawl Ball screenshots (deduplicated)
+
+- The player supplied three additional battle-history screenshots plus a re-upload containing previously omitted matches. Several screenshot rows overlapped with one another and with already-recorded Sunny Soccer and Super Beach matches, so a full screenshot count would exaggerate the number of independent observations.
+- We compared the six-character compositions (treating each team's portrait order as arbitrary), outcome, mode and map to the 150 original matches and deduplicated the overlapping screenshots before import.
+- **12 previously unrecorded Brawl Ball matches** remained: 7 on Triple Dribble and 5 on Pump It Up, of which **11 were victories and 1 was a defeat**.
+- These real matches were added with `Match_ID`/`Pair_ID` **151–162**; their synthetic mirrors have `Match_ID` **313–324** after arranging all 162 originals first and all 162 mirrored rows afterward. Mirror `Pair_ID` is identical to its original's ID.
+- One new original (match 159) has a blank trophy change because the value was not legible; no trophy change was inferred for any mirrored row.
+- **The working dataset now contains 162 actual matches (121 wins, 41 losses), with 107 distinct brawlers.** It also contains 162 synthetic side-swapped matches, for **324 total rows (162 wins, 162 losses)**.
+- The Brawl Ball subset increased from **81 to 93 independent matches**. Other recorded modes retained their original counts.
+- Mirror invariants were re-validated for all 162 pairs: composition side-swap, inverted outcome and matching `Pair_ID`. The final data are published in `data/raw_matches.csv` and `data/augmented_matches.csv`.
+- This extension does not create new independent outcomes through mirroring. Future validation must still keep matched mirrors within the same training fold (or add mirrors only to the training set after splitting the original matches).
+- The previous sections record the project as it evolved; superseded sample-size figures there are **historical**, not the current dataset totals.
