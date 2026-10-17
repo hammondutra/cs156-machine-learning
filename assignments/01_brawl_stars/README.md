@@ -2,16 +2,16 @@
 
 **Research question:** Can the six brawlers in a 3v3 match predict the result better than a prior-only baseline, ideally learning drafting signal rather than the personal player's win tendency?
 
-## Current data (finalized 2026-10-14)
+## Current data (updated 2026-10-17)
 
 | File | Content |
 | --- | --- |
-| [data/raw_matches.csv](data/raw_matches.csv) | **150 independent observed matches**; source of truth for training and real-world evaluation |
-| [data/augmented_matches.csv](data/augmented_matches.csv) | **300 rows:** the 150 original matches plus side-swapped versions |
+| [data/raw_matches.csv](data/raw_matches.csv) | **162 independent observed matches**; source of truth for training and real-world evaluation |
+| [data/augmented_matches.csv](data/augmented_matches.csv) | **324 rows:** the 162 original matches plus side-swapped versions |
 | [data/brawler_names.csv](data/brawler_names.csv) | **107 distinct** brawler labels from the final corrected sheet |
 | [RESEARCH_LOG.md](RESEARCH_LOG.md) | Chronological collection decisions, pilot results, motivations, limitations, future directions |
 
-The source of truth is the [Google Sheet](https://docs.google.com/spreadsheets/d/1PT7GDSb56HKSjGbvmj5-bGVWCmbP8Wo7-tSkRxEk7aQ/edit). The observed games have **110 Blue wins / 40 losses**, and the mirrored 300-row table has **150/150**. The six observed modes are Brawl Ball (81), Gem Grab (30), Knockout (25), Hot Zone (8), Heist (4), and Basket Brawl (2). No draws were recorded.
+The source of truth is the [Google Sheet](https://docs.google.com/spreadsheets/d/1PT7GDSb56HKSjGbvmj5-bGVWCmbP8Wo7-tSkRxEk7aQ/edit). The observed games have **121 Blue wins / 41 losses**, and the mirrored 300-row table has **162/162**. The six observed modes are Brawl Ball (93), Gem Grab (30), Knockout (25), Hot Zone (8), Heist (4), and Basket Brawl (2). No draws were recorded.
 
 ### Mirroring and reproducibility
 
@@ -26,3 +26,7 @@ The previous Jupyter notebook and scripts under `notebooks/` and `src/` were **p
 **Next:** regenerate the notebook from scratch using the new CSV schema and leakage-safe validation, compare baselines, explore the Brawl Ball subset and report uncertainty. Do not fit Win/Draw/Loss multinomial regression until genuine draw examples are available.
 
 See [RESEARCH_LOG.md](RESEARCH_LOG.md) for the full history and the [Google Docs project plan](https://docs.google.com/document/d/1IPTG9PpUdT5H7X-I0S7bjCjKbauvxZaRpzkvWXfPYQ0/edit).
+
+### October 17 dataset extension
+
+The latest screenshot batch added **12 distinct Brawl Ball matches** (11 wins and 1 loss) on **Triple Dribble** and **Pump It Up**, after cross-checking overlap among the screenshots and against previous observations. The real-data total is now **162 independent matches** (121 wins, 41 losses). Each newly observed match has one side-swapped counterpart; the augmented table has **324 records** with **162 wins / 162 losses**. The brawler vocabulary still contains **107 labels**. Original match 159 has its `Trophy_Change` intentionally blank because that value was not legible in the source screenshot. `Source_Image`, `Source_Row`, `Pair_ID`, `Is_Flipped` and `Record_Type` continue to document provenance. These additions were **not** used to regenerate the old pilot notebook.
