@@ -102,6 +102,22 @@ Open [`notebooks/09_metrics_cross_validation.ipynb`](notebooks/09_metrics_cross_
 
 Reusable script: [`src/session09_metrics_cross_validation.py`](src/session09_metrics_cross_validation.py).
 
+### Session 13 — Support Vector Classifiers and the Kernel Trick
+
+- nullspace, representer theorem, and SVC soft-margin/dual equations;
+- linear, homogeneous quadratic, and RBF kernels and feature maps;
+- linear and RBF SVC functions from the first PCW question;
+- kernel comparisons on two-moons data;
+- optional financial transaction classification (CSV not included);
+- Yosemite Village NOAA 2011–2016 month prediction, with recorded CV/test results;
+- supplementary SVR versus linear/RBF-feature regression.
+
+Open [Session 13 notebook](notebooks/13_support_vector_classifiers_kernel_trick.ipynb).
+
+Reusable script: [Session 13 Python module](src/session13_svm_kernel_trick.py).
+
+**Gap:** Sessions 10–12 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
+
 ## Setup
 
 ```bash
@@ -115,4 +131,4 @@ Then select the `.venv` Python interpreter / kernel in VS Code or Jupyter.
 
 ## Notes
 
-Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn.
+Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
