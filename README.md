@@ -132,6 +132,19 @@ Reusable script: [Session 15 Python module](src/session15_ridge_lasso.py).
 
 **Source:** [Minerva Session 15 — Basis Functions 2: Ridge and Lasso](https://forum.minerva.edu/app/courses/4077/sections/13535/classes/105085) and the supplied PCW PDF. The experiments are synthetic/offline; install dependencies from `requirements.txt`.
 
+**Yosemite extension — Fourier basis + Ridge temperature forecasting**
+
+- load the professor's raw whitespace-delimited Yosemite temperature Gist;
+- model annual/daily sine and cosine cycles with Fourier harmonics and season×hour interactions;
+- compare ordinary least squares with Ridge L2 regularization;
+- construct past 24/48/72/168-hour temperature lag features for rolling 24-hour-ahead forecasting;
+- tune model settings on 2015 validation, with 2016 held out for final regression RMSE/MAE/R² evaluation;
+- include an optional histogram gradient-boosting benchmark for higher predictive accuracy.
+
+[Run the Yosemite notebook](notebooks/15_yosemite_fourier_ridge.ipynb) · [Python version](src/session15_yosemite_fourier_ridge.py).
+
+The original Bollywood PCW notebook remains unchanged. This extension requires internet access to download the Gist data. No new Yosemite test scores are reported until the notebook runs.
+
 **Gap:** Sessions 10–12 and 14 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
 
 ## Setup
