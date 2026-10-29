@@ -116,7 +116,23 @@ Open [Session 13 notebook](notebooks/13_support_vector_classifiers_kernel_trick.
 
 Reusable script: [Session 13 Python module](src/session13_svm_kernel_trick.py).
 
-**Gap:** Sessions 10–12 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
+### Session 15 — Basis Functions 2: Ridge and Lasso
+
+- ill-posed parameter estimation, overfitting, and regularization;
+- Ridge (L2) versus Lasso (L1), coefficient shrinkage and feature selection;
+- synthetic logistic regression and mean negative log-likelihood from Session 6;
+- loss-surface contour plots for NLL, squared L2 norm, and their weighted sum;
+- shifting the minimizer using an L2 penalty and changing the regularization strength;
+- repeated sampling (50 datasets), unregularized logistic regression vs. RidgeClassifier, coefficient variance, and the bias–variance tradeoff;
+- compatibility notes for JAX and scikit-learn; comparisons across different classifier objectives are qualified.
+
+Open [Session 15 notebook](notebooks/15_basis_functions_2_ridge_lasso.ipynb).
+
+Reusable script: [Session 15 Python module](src/session15_ridge_lasso.py).
+
+**Source:** [Minerva Session 15 — Basis Functions 2: Ridge and Lasso](https://forum.minerva.edu/app/courses/4077/sections/13535/classes/105085) and the supplied PCW PDF. The experiments are synthetic/offline; install dependencies from `requirements.txt`.
+
+**Gap:** Sessions 10–12 and 14 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
 
 ## Setup
 
@@ -131,4 +147,4 @@ Then select the `.venv` Python interpreter / kernel in VS Code or Jupyter.
 
 ## Notes
 
-Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
+Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Session 15 generates synthetic Bernoulli datasets locally; its JAX plot helpers and 50-fit scikit-learn experiment are executable offline. Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
