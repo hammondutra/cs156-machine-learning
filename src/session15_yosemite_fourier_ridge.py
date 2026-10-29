@@ -69,7 +69,7 @@ data = (
 hourly = data.resample("1h").mean().to_frame("temperature")
 print("Available years:", hourly.index.year.value_counts().sort_index().to_dict())
 print("Rows:", len(hourly), "Valid hourly targets:", hourly.temperature.notna().sum())
-display(hourly.head())
+print(hourly.head())
 
 
 # %% [markdown]
@@ -216,7 +216,7 @@ for year_h, day_h, interaction, lags in feature_settings:
         })
 
 results = pd.DataFrame(records).sort_values("val_RMSE").reset_index(drop=True)
-display(results.head(10))
+print(results.head(10))
 
 best_ridge = results.iloc[0].to_dict()
 print("Best Ridge (selected using validation only):", best_ridge)
@@ -255,7 +255,7 @@ for leaves, learning_rate in product([15, 31], [0.05, 0.1]):
     })
 
 boost_results = pd.DataFrame(boost_search).sort_values("val_RMSE")
-display(boost_results)
+print(boost_results)
 best_boost = boost_results.iloc[0].to_dict()
 winner = "Boosting" if best_boost["val_RMSE"] < best_ridge["val_RMSE"] else "Ridge"
 print("Selected using 2015 validation:", winner)
@@ -294,7 +294,7 @@ for name, pred in predictions.items():
     score_rows.append({"Model": name, **regression_scores(y[test], pred)})
 
 final_scores = pd.DataFrame(score_rows).set_index("Model").round(3)
-display(final_scores)
+print(final_scores)
 print("Chosen model (from validation only):", winner)
 
 
