@@ -145,6 +145,22 @@ Reusable script: [Session 15 Python module](src/session15_ridge_lasso.py).
 
 The original Bollywood PCW notebook remains unchanged. This extension requires internet access to download the Gist data. No new Yosemite test scores are reported until the notebook runs.
 
+### Session 17 — CNNs, Filters, and Deep Learning
+
+- convolution vs. cross-correlation, feature maps, tied/shared weights, ReLU, and pooling;
+- discrete 2D kernels, stride, padding, dilation, multichannel RGB filtering, and output shapes;
+- fixed filters for blurring, sharpening, and vertical/horizontal Sobel edge detection;
+- SciPy raccoon **eye-template matching**, response maps, and why other facial features also activate;
+- combining Sobel responses into the **Euclidean image-gradient magnitude**;
+- kernel-gradient backpropagation and efficient implementations (im2col, FFT, separable filters);
+- carefully typeset LaTeX derivations and polished answers to the first PCW question.
+
+Open [Session 17 notebook](notebooks/17_cnns_filters_deep_learning.ipynb).
+
+Standalone Python script: [Session 17 — runnable convolution exercises](src/session17_cnns_filters_deep_learning.py).
+
+**Source:** supplied *CS156 Session 17 PCW — CNNs, filters, and deep learning* (13 pages; seven code cells). The notebook updates legacy \`scipy.misc.face\` to \`scipy.datasets.face\` and accelerates large-template correlation using an equivalent FFT computation with symmetric padding. The raccoon image may require internet access on first run; SciPy caches it afterward.
+
 **Gap:** Sessions 10–12 and 14 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
 
 ## Setup
@@ -160,4 +176,4 @@ Then select the `.venv` Python interpreter / kernel in VS Code or Jupyter.
 
 ## Notes
 
-Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Session 15 generates synthetic Bernoulli datasets locally; its JAX plot helpers and 50-fit scikit-learn experiment are executable offline. Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
+Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Session 15 generates synthetic Bernoulli datasets locally; its JAX plot helpers and 50-fit scikit-learn experiment are executable offline. Session 17's sample raccoon image uses SciPy's cached dataset (first use may download). Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
