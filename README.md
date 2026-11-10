@@ -161,6 +161,24 @@ Standalone Python script: [Session 17 — runnable convolution exercises](src/se
 
 **Source:** supplied *CS156 Session 17 PCW — CNNs, filters, and deep learning* (13 pages; seven code cells). The notebook updates legacy \`scipy.misc.face\` to \`scipy.datasets.face\` and accelerates large-template correlation using an equivalent FFT computation with symmetric padding. The raccoon image may require internet access on first run; SciPy caches it afterward.
 
+### Session 18 — Autoencoders and Nonlinear Dimensionality Reduction
+
+- encoder–decoder networks, self-supervised representation learning, and reconstruction objectives;
+- compressed **2D bottleneck** representations of 8×8 handwritten digits from scikit-learn;
+- nonlinear dimensionality reduction versus PCA, and limitations of reconstruction-based features;
+- JAX automatic differentiation and Adam optimization of pixelwise binary cross-entropy;
+- evaluating reconstruction quality and visualizing a **2D latent-space scatterplot** colored by digit label;
+- original **five-layer** network versus **seven-layer** encoder–decoder extension, with matched training settings and loss curves;
+- optional autoregressive **teacher-forcing** experiment, distinguishing teacher-forced from free-running reconstruction.
+
+Open [Session 18 notebook](notebooks/18_autoencoders.ipynb).
+
+Standalone Python script: [Session 18 — runnable autoencoder exercises](src/session18_autoencoders.py).
+
+**Source:** supplied *CS156 Session 18 PCW — Autoencoders* (10 pages; 13 code cells). The PDF reports reconstruction losses of **0.374349 (5 layers)** and **0.374409 (7 layers)** for the controlled depth comparison. The teacher-forcing extension reports **0.337815 teacher-forced** versus **0.442996 free-running** loss. These are source-reported training scores, not held-out test metrics or guaranteed scores for each rerun. The notebook and script reproduce the exercises using local scikit-learn digits data.
+
+**Dependencies:** Session 18 additionally uses `optax` (included in `requirements.txt`). Training uses 3,000 + 3,000 + 1,000 update steps by default; for a short functionality check, set `CS156_STEPS=100 CS156_TEACHER_STEPS=50 CS156_NO_SHOW=1` before running the standalone script.
+
 **Gap:** Sessions 10–12 and 14 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
 
 ## Setup
@@ -176,4 +194,4 @@ Then select the `.venv` Python interpreter / kernel in VS Code or Jupyter.
 
 ## Notes
 
-Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Session 15 generates synthetic Bernoulli datasets locally; its JAX plot helpers and 50-fit scikit-learn experiment are executable offline. Session 17's sample raccoon image uses SciPy's cached dataset (first use may download). Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
+Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Session 15 generates synthetic Bernoulli datasets locally; its JAX plot helpers and 50-fit scikit-learn experiment are executable offline. Session 17's sample raccoon image uses SciPy's cached dataset (first use may download). Session 18's scikit-learn digits data runs fully offline; the 2D bottleneck, deeper comparison, and recurrent teacher-forcing experiments use JAX + Optax. Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
