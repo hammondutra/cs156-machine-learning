@@ -5,6 +5,7 @@ seaborn
 scikit-learn
 scipy
 tensorflow>=2.20
+tf-keras>=2.20
 jax>=0.4.13
 jupyter
 ipykernel

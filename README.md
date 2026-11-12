@@ -179,6 +179,25 @@ Standalone Python script: [Session 18 — runnable autoencoder exercises](src/se
 
 **Dependencies:** Session 18 additionally uses `optax` (included in `requirements.txt`). Training uses 3,000 + 3,000 + 1,000 update steps by default; for a short functionality check, set `CS156_STEPS=100 CS156_TEACHER_STEPS=50 CS156_NO_SHOW=1` before running the standalone script.
 
+
+### Session 19 — Recurrent Neural Networks (RNNs), LSTMs, and GRUs
+
+- sequential data and recurrence: hidden states, weight sharing, and batch independence;
+- batched **NumPy vanilla RNN** with three learned transformations and explicit input/state/output shapes;
+- three-timestep state propagation and a sanity check that information passes **through time within each sequence**, not between batch elements;
+- LSTM forget/input/output gates, additive cell-state updates, and backpropagation through time (BPTT);
+- vanishing versus exploding gradients, and how GRU gating helps preserve longer-term information;
+- Shakespeare **character-level text generation** using TensorFlow: integer tokenization, 256-dimensional embeddings, 1,024-unit GRU, 100-character training windows, next-character cross-entropy, Adam, checkpoints, and sampled autoregressive generation;
+- cleaned-up, typeset LaTeX answers and conceptual responses to PCW Questions 1–6.
+
+Open [Session 19 notebook](notebooks/19_recurrent_neural_networks.ipynb).
+
+Standalone Python script: [Session 19 — RNN and Shakespeare GRU exercises](src/session19_recurrent_neural_networks.py).
+
+**Source:** supplied *CS156 Session 19 PCW — RNNs* (7 pages; four NumPy code cells) and the [official TensorFlow text-generation tutorial](https://www.tensorflow.org/text/tutorials/text_generation). The extension follows the tutorial through **Generate text**. Dataset download requires internet access. GPU training recommended; outputs are intentionally left unexecuted, not fabricated.
+
+**Run:** \`pip install -r requirements.txt\` then \`python src/session19_recurrent_neural_networks.py\`. The default is 20 epochs and 1,000 generated characters; to smoke-test with a small model and dataset, run \`CS156_EPOCHS=1 CS156_GRU_UNITS=64 CS156_MAX_BATCHES=2 CS156_GENERATE=25 CS156_NO_SHOW=1 python src/session19_recurrent_neural_networks.py\`. The script enables TensorFlow's legacy \`tf.keras\` to match the tutorial, using the \`tf-keras\` package.
+
 **Gap:** Sessions 10–12 and 14 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
 
 ## Setup
@@ -194,4 +213,4 @@ Then select the `.venv` Python interpreter / kernel in VS Code or Jupyter.
 
 ## Notes
 
-Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Session 15 generates synthetic Bernoulli datasets locally; its JAX plot helpers and 50-fit scikit-learn experiment are executable offline. Session 17's sample raccoon image uses SciPy's cached dataset (first use may download). Session 18's scikit-learn digits data runs fully offline; the 2D bottleneck, deeper comparison, and recurrent teacher-forcing experiments use JAX + Optax. Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
+Some notebooks download public datasets when first executed, so an internet connection is required for those cells. Session 6 uses synthetic data and runs offline. Session 7's MNIST and Fashion-MNIST data are cached by Keras; its Sonar CSV can be read locally or downloaded to `~/.cache/cs156`. Session 8 uses NumPy for the manual-gradient exercises and JAX for the automatic-differentiation preview. Session 9 runs fully offline because its concentric-circle dataset is generated with scikit-learn. Session 13's synthetic datasets also run offline. Session 15 generates synthetic Bernoulli datasets locally; its JAX plot helpers and 50-fit scikit-learn experiment are executable offline. Session 17's sample raccoon image uses SciPy's cached dataset (first use may download). Session 18's scikit-learn digits data runs fully offline; Session 19's NumPy RNN runs offline, while its Shakespeare GRU downloads the text dataset and benefits from GPU acceleration; the 2D bottleneck, deeper comparison, and recurrent teacher-forcing experiments use JAX + Optax. Financial transactions require an external CSV (`CS156_TRANSACTIONS_CSV` and optional `CS156_FINANCIAL_TARGET`); NOAA Yosemite downloads and the expensive models are opt-in with `CS156_RUN_YOSEMITE=1`.
