@@ -198,6 +198,25 @@ Standalone Python script: [Session 19 — RNN and Shakespeare GRU exercises](src
 
 **Run:** \`pip install -r requirements.txt\` then \`python src/session19_recurrent_neural_networks.py\`. The default is 20 epochs and 1,000 generated characters; to smoke-test with a small model and dataset, run \`CS156_EPOCHS=1 CS156_GRU_UNITS=64 CS156_MAX_BATCHES=2 CS156_GENERATE=25 CS156_NO_SHOW=1 python src/session19_recurrent_neural_networks.py\`. The script enables TensorFlow's legacy \`tf.keras\` to match the tutorial, using the \`tf-keras\` package.
 
+### Session 20 — Transfer Learning, Fine-tuning, and Visualizing Embeddings
+
+- transfer learning from ImageNet-pretrained **MobileNetV2** to binary cat/dog classification;
+- data loading, augmentation, mobile-network input preprocessing, and efficient `tf.data` pipelines;
+- **feature extraction** by freezing the pretrained convolutional backbone and training a new binary classification head;
+- **fine-tuning** by unfreezing selected upper layers and continuing gradient-based optimization with a smaller learning rate;
+- comparing training/validation curves and evaluating a held-out test split;
+- **PCW extension:** extracting 1,280-dimensional GlobalAveragePooling2D vectors using a separate **unfine-tuned** MobileNetV2, reducing them with **PCA to 2D**, and coloring points by cat/dog;
+- evaluating an optional **linear logistic-regression probe** in 2D PCA space, with the caveat that PCA visualization does not establish full-dimensional linear separability;
+- diagnosing a Colab dataset-extraction/path error and providing a portable data-directory fallback.
+
+**Primary learning notebook:** [Session 20 — Transfer Learning and Fine-tuning](notebooks/20_transfer_learning_fine_tuning.ipynb) (runnable tutorial and PCA extension).
+
+**Secondary PCW:** [Session 20 — Written PCW notes](notebooks/20_transfer_learning_pcw_notes.ipynb).
+
+**Standalone Python:** [Session 20 — Transfer learning script](src/session20_transfer_learning.py).
+
+**Source:** supplied *CS156 Session 20 PCW* and the [official TensorFlow transfer-learning tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning). The student's executed notebook reported strong 2D cat/dog separation; the repository notebook intentionally omits saved output blobs for a smaller Git diff, so run it for reproducible plots. First run downloads the dataset and ImageNet weights; GPU recommended. Run with `python src/session20_transfer_learning.py`, or shorten training with `CS156_EPOCHS=1 CS156_FINE_EPOCHS=1 CS156_NO_SHOW=1 python src/session20_transfer_learning.py`.
+
 **Gap:** Sessions 10–12 and 14 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
 
 ## Setup
