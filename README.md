@@ -226,6 +226,7 @@ To keep the original PCW runnable in its 384 MB kernel, the supplied experiment 
 **Session structure:**
 
 - **Main PCW (Questions 1–4):** [Contrastive-learning preparation notebook](notebooks/21_assignment2_prep_contrastive.ipynb) — selected model, training data, learning method, metrics, citations, mathematical objective, NumPy experiment, and interpretation. The originally submitted two-slide presentation is summarized in this notebook.
+- **Presentation companion (Questions 1–2):** [Two-slide SetFit overview and speaker notes](notebooks/21_setfit_presentation_companion.md) — diffable summary of the submitted two-slide presentation, without bundling a binary PDF.
 - **Revisited Session 11 extension (Question 5):** [Ames housing neighborhood analysis notebook](notebooks/21_session11_extension_ames.ipynb) — historical housing prices by 25 neighborhoods, sale counts, medians, interquartile ranges, figure, and discussion of sampling and interpretation limitations.
 - **Standalone Python:** [Session 21 combined script](src/session21_assignment2_prep.py) — runs both studies sequentially; avoids duplicating long blocks of notebook code.
 - **Offline housing data:** [Verified Ames aggregate CSV](data/session21_ames_neighborhood_summary.csv) — 25 neighborhood summaries derived from **1,460** observations, *not* a replacement for record-level analysis.
