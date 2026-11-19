@@ -217,6 +217,34 @@ Standalone Python script: [Session 19 — RNN and Shakespeare GRU exercises](src
 
 **Source:** supplied *CS156 Session 20 PCW* and the [official TensorFlow transfer-learning tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning). The student's executed notebook reported strong 2D cat/dog separation; the repository notebook intentionally omits saved output blobs for a smaller Git diff, so run it for reproducible plots. First run downloads the dataset and ImageNet weights; GPU recommended. Run with `python src/session20_transfer_learning.py`, or shorten training with `CS156_EPOCHS=1 CS156_FINE_EPOCHS=1 CS156_NO_SHOW=1 python src/session20_transfer_learning.py`.
 
+### Session 21 — Assignment 2 Prep: SetFit, Contrastive Learning, and Data Ethics Extension
+
+This session prepares for Pipeline Assignment 2 by selecting a **method extending Unit 2** and implementing a small, runnable precursor. The selected method is **SetFit (Sentence Transformer Fine-Tuning)**: a few-shot technique that fine-tunes pretrained sentence representations using labeled text pairs before fitting a classification head. The planned application is a context-aware classifier for authorized versus potentially unsafe **AI-agent tool actions**. SetFit is **supervised classification**, not automatically an anomaly detector.
+
+To keep the original PCW runnable in its 384 MB kernel, the supplied experiment **does not actually fine-tune a pretrained transformer**. Instead, it encodes 16 synthetic agent task/action descriptions as normalized bag-of-words vectors and optimizes a 12-dimensional linear embedding using a **pairwise cosine-similarity mean squared loss and a manually implemented gradient**. Across 120 distinct training pairs, the submitted run reported training loss **0.326 → 0.000**, average same-label cosine similarity **0.569 → 0.978**, and different-label similarity **0.616 → −0.005**. These are **training-pair results only**, not evidence of held-out detection accuracy, practical security effectiveness, or a working SetFit implementation.
+
+**Session structure:**
+
+- **Main PCW (Questions 1–4):** [Contrastive-learning preparation notebook](notebooks/21_assignment2_prep_contrastive.ipynb) — selected model, training data, learning method, metrics, citations, mathematical objective, NumPy experiment, and interpretation. The originally submitted two-slide presentation is summarized in this notebook.
+- **Revisited Session 11 extension (Question 5):** [Ames housing neighborhood analysis notebook](notebooks/21_session11_extension_ames.ipynb) — historical housing prices by 25 neighborhoods, sale counts, medians, interquartile ranges, figure, and discussion of sampling and interpretation limitations.
+- **Standalone Python:** [Session 21 combined script](src/session21_assignment2_prep.py) — runs both studies sequentially; avoids duplicating long blocks of notebook code.
+- **Offline housing data:** [Verified Ames aggregate CSV](data/session21_ames_neighborhood_summary.csv) — 25 neighborhood summaries derived from **1,460** observations, *not* a replacement for record-level analysis.
+
+**Run from repository root:**
+
+```bash
+python src/session21_assignment2_prep.py
+python src/session21_assignment2_prep.py --from-raw --no-show
+python src/session21_assignment2_prep.py --no-show --save-plot ames.png
+```
+
+The default script works offline with `numpy`, `pandas`, and `matplotlib`. The `--from-raw` switch downloads the public [Ames Housing training CSV](https://github.com/knaat/Ames-housing/blob/main/train.csv), cleans invalid/missing price and neighborhood records, and recomputes group summaries. Both Jupyter notebooks include saved explanatory content; the Ames notebook also includes a saved visualization prepared from the same validated aggregates. Rerun their cells to reproduce results.
+
+**Further work for Pipeline 2:** load an actual pretrained Sentence Transformer, perform SetFit fine-tuning on adequately labeled and sanitized action data, create a task/scenario-disjoint test split, compare against frozen embeddings and other baselines, and report precision/recall, F1, PR-AUC, false-positive rates, and latency. No such model performance is claimed at this stage.
+
+**References:** [Hugging Face SetFit](https://huggingface.co/docs/setfit/index); [SetFit SST-2 dataset](https://huggingface.co/datasets/SetFit/sst2); [AgentDojo](https://github.com/ethz-spylab/agentdojo); De Cock (2011) / [Ames Housing CSV](https://github.com/knaat/Ames-housing/blob/main/train.csv). Source: submitted *CS156 Session 21 PCW*, 19 November 2026.
+
+
 **Gap:** Sessions 10–12 and 14 are intentionally deferred. Financial and supplementary SVR scores are not reported because they were not run in the source PCW.
 
 ## Setup
